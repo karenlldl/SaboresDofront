@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "categoria": "Prato Principal",
+    "nome": "Ratatouille",
+    "descricao": "Espiral de legumes provençal",
+    "tempo": "1h 15min",
+    "dificuldade": "Médio",
+    "imagem": "/img/ratatouille.png",
+    "ingredientes": [
+      "1 abobrinha em fatias finas",
+      "1 abobrinha amarela em fatias finas",
+      "1 berinjela pequena em fatias finas",
+      "4 tomates maduros em fatias finas",
+      "1 pimentão vermelho",
+      "3 dentes de alho picados",
+      "2 colheres de sopa de azeite",
+      "Tomilho e manjericão frescos",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 190°C.",
+      "Faça a base refogando cebola, pimentão e alho no azeite com tomate até formar um molho.",
+      "Espalhe o molho no fundo de uma travessa.",
+      "Disponha as fatias de legumes em espiral.",
+      "Regue com azeite e tempere com sal, pimenta e ervas.",
+      "Cubra com papel manteiga e asse por 45 minutos.",
+      "Retire o papel e asse por mais 15 minutos antes de servir."
+    ]
+  },
+  {
+    "id": 2,
+    "categoria": "Sobremesas",
+    "nome": "Crème Brûlée",
+    "descricao": "Creme de baunilha com crosta de caramelo",
+    "tempo": "45min + geladeira",
+    "dificuldade": "Fácil",
+    "imagem": "/img/creme.jpg",
+    "ingredientes": [
+      "500ml de creme de leite fresco",
+      "1 fava de baunilha ou 1 colher de chá de extrato",
+      "5 gemas",
+      "80g de açúcar para o creme",
+      "4 colheres de açúcar para a cobertura",
+      "1 pitada de sal"
+    ],
+    "modoPreparo": [
+      "Pré-aqueça o forno a 150°C.",
+      "Aqueça o creme de leite com a baunilha sem deixar ferver.",
+      "Bata as gemas com o açúcar e o sal até misturar bem.",
+      "Adicione o creme morno aos poucos às gemas, mexendo sempre.",
+      "Distribua em ramequins e asse em banho-maria por 35 a 40 minutos.",
+      "Leve à geladeira por pelo menos 4 horas.",
+      "Polvilhe açúcar por cima e queime com maçarico até formar a crosta caramelizada."
+    ]
+  },
+  {
+    "id": 3,
+    "categoria": "Sobremesas",
+    "nome": "Éclair de Chocolate",
+    "descricao": "Massa choux, creme e ganache",
+    "tempo": "1h 30min",
+    "dificuldade": "Difícil",
+    "imagem": "/img/eclair.png",
+    "ingredientes": [
+      "125ml de água",
+      "60g de manteiga",
+      "75g de farinha de trigo",
+      "2 ovos grandes",
+      "300ml de leite",
+      "3 gemas",
+      "60g de açúcar",
+      "25g de amido de milho",
+      "150g de chocolate amargo",
+      "75ml de creme de leite"
+    ],
+    "modoPreparo": [
+      "Ferva a água com a manteiga e adicione a farinha de uma vez.",
+      "Mexa até formar uma massa que solte do fundo da panela.",
+      "Deixe amornar e incorpore os ovos um a um.",
+      "Modele os éclairs em uma assadeira e asse a 200°C por cerca de 25 minutos.",
+      "Prepare o creme cozinhando leite, gemas, açúcar e amido até engrossar.",
+      "Recheie os éclairs já frios com o creme.",
+      "Finalize cobrindo com ganache de chocolate."
+    ]
+  },
+  {
+    "id": 4,
+    "categoria": "Entradas",
+    "nome": "Soupe à l'Oignon",
+    "descricao": "Sopa de cebola gratinada",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "imagem": "/img/soupe-oignon.png",
+    "ingredientes": [
+      "4 cebolas grandes fatiadas",
+      "2 colheres de sopa de manteiga",
+      "1 colher de sopa de farinha",
+      "1 litro de caldo de carne",
+      "1/2 xícara de vinho branco",
+      "Fatias de pão",
+      "Queijo gruyère ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Derreta a manteiga e cozinhe as cebolas até caramelizarem.",
+      "Adicione a farinha e misture bem.",
+      "Acrescente o vinho branco e o caldo de carne.",
+      "Tempere com sal e pimenta e cozinhe por 30 minutos.",
+      "Distribua a sopa em tigelas próprias para forno.",
+      "Coloque uma fatia de pão por cima e cubra com queijo.",
+      "Leve ao forno para gratinar antes de servir."
+    ]
+  },
+  {
+    "id": 5,
+    "categoria": "Entradas",
+    "nome": "Escargots à la Bourguignonne",
+    "descricao": "Caracóis com manteiga de alho e salsa",
+    "tempo": "30min",
+    "dificuldade": "Médio",
+    "imagem": "/img/escargots.png",
+    "ingredientes": [
+      "12 escargots prontos para preparo",
+      "100g de manteiga",
+      "2 dentes de alho picados",
+      "2 colheres de sopa de salsa picada",
+      "Sal a gosto",
+      "Pimenta-do-reino a gosto"
+    ],
+    "modoPreparo": [
+      "Misture a manteiga com alho, salsa, sal e pimenta.",
+      "Coloque um pouco da manteiga temperada em cada cavidade da forma.",
+      "Adicione os escargots e cubra com mais manteiga.",
+      "Leve ao forno preaquecido a 200°C por cerca de 10 minutos.",
+      "Sirva quente com pão para acompanhar."
+    ]
+  },
+  {
+    "id": 6,
+    "categoria": "Entradas",
+    "nome": "Quiche Lorraine",
+    "descricao": "Torta salgada de bacon e creme",
+    "tempo": "1h 10min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/quiche-lorraine.png",
+    "ingredientes": [
+      "1 massa de torta pronta ou caseira",
+      "150g de bacon picado",
+      "3 ovos",
+      "200ml de creme de leite",
+      "100ml de leite",
+      "100g de queijo ralado",
+      "Sal, noz-moscada e pimenta a gosto"
+    ],
+    "modoPreparo": [
+      "Forre uma forma com a massa e reserve.",
+      "Frite o bacon até dourar e espalhe sobre a massa.",
+      "Misture ovos, creme de leite, leite e temperos.",
+      "Despeje o recheio sobre a massa.",
+      "Cubra com queijo ralado.",
+      "Asse em forno preaquecido a 180°C por 35 a 40 minutos."
+    ]
+  },
+  {
+    "id": 7,
+    "categoria": "Prato Principal",
+    "nome": "Coq au Vin",
+    "descricao": "Frango ao vinho tinto",
+    "tempo": "2h",
+    "dificuldade": "Médio",
+    "imagem": "/img/coq-au-vin.png",
+    "ingredientes": [
+      "1kg de coxas e sobrecoxas de frango",
+      "750ml de vinho tinto",
+      "150g de bacon",
+      "200g de cogumelos",
+      "12 cebolinhas pequenas",
+      "2 dentes de alho",
+      "1 cenoura em rodelas",
+      "1 colher de sopa de farinha",
+      "Tomilho, louro, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Tempere o frango e doure em uma panela.",
+      "Retire e doure o bacon, os cogumelos e as cebolinhas.",
+      "Volte o frango para a panela.",
+      "Polvilhe farinha e misture bem.",
+      "Adicione o vinho, a cenoura, alho e ervas.",
+      "Cozinhe em fogo baixo por cerca de 1h30 até o frango ficar macio.",
+      "Ajuste o sal e sirva quente."
+    ]
+  },
+  {
+    "id": 8,
+    "categoria": "Prato Principal",
+    "nome": "Boeuf Bourguignon",
+    "descricao": "Carne braseada no vinho da Borgonha",
+    "tempo": "3h",
+    "dificuldade": "Médio",
+    "imagem": "/img/boeuf-bourguignon.png",
+    "ingredientes": [
+      "1kg de carne bovina em cubos",
+      "150g de bacon",
+      "750ml de vinho tinto",
+      "2 cenouras em rodelas",
+      "12 cebolinhas",
+      "200g de cogumelos",
+      "2 dentes de alho",
+      "2 colheres de sopa de farinha",
+      "Tomilho, louro, sal e pimenta"
+    ],
+    "modoPreparo": [
+      "Doure o bacon e reserve.",
+      "Sele a carne na mesma panela.",
+      "Adicione farinha e misture.",
+      "Acrescente vinho, cenouras, alho, cebolinhas e ervas.",
+      "Tampe e cozinhe lentamente por cerca de 2h30.",
+      "Adicione os cogumelos nos minutos finais.",
+      "Sirva bem quente com acompanhamento de sua preferência."
+    ]
+  },
+  {
+    "id": 9,
+    "categoria": "Sobremesas",
+    "nome": "Tarte Tatin",
+    "descricao": "Torta invertida de maçã caramelizada",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "imagem": "/img/tarte-tatin.png",
+    "ingredientes": [
+      "5 maçãs",
+      "100g de açúcar",
+      "80g de manteiga",
+      "1 massa folhada",
+      "Canela a gosto"
+    ],
+    "modoPreparo": [
+      "Descasque e corte as maçãs ao meio.",
+      "Prepare um caramelo com açúcar e manteiga em uma frigideira ou forma.",
+      "Disponha as maçãs sobre o caramelo.",
+      "Cubra com a massa folhada, dobrando as bordas.",
+      "Asse em forno preaquecido a 180°C por 30 a 35 minutos.",
+      "Desenforme ainda morna com cuidado."
+    ]
+  },
+  {
+    "id": 10,
+    "categoria": "Sobremesas",
+    "nome": "Macarons",
+    "descricao": "Biscoitinhos de amêndoa coloridos",
+    "tempo": "1h 30min",
+    "dificuldade": "Difícil",
+    "imagem": "/img/macarons.png",
+    "ingredientes": [
+      "100g de farinha de amêndoas",
+      "100g de açúcar de confeiteiro",
+      "100g de açúcar refinado",
+      "2 claras de ovo",
+      "Corante alimentício",
+      "Recheio de ganache ou buttercream"
+    ],
+    "modoPreparo": [
+      "Peneire a farinha de amêndoas com o açúcar de confeiteiro.",
+      "Bata as claras e adicione o açúcar refinado aos poucos até formar merengue.",
+      "Acrescente o corante e incorpore os secos delicadamente.",
+      "Modele discos em assadeira e deixe descansar até criar película.",
+      "Asse em forno baixo por cerca de 15 minutos.",
+      "Recheie após esfriar completamente."
+    ]
+  }
+]
