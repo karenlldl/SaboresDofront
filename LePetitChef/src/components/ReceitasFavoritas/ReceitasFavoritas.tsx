@@ -65,7 +65,7 @@ const ReceitasFavoritas = () => {
             <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4 ">
               {receitas
             .filter((receita) =>
-                ["Ratatouille", "Crème Brûlée", "Éclair de Chocolate"].includes(receita.nome)
+                ["Ratatouille", "Crème Brûlée", "Éclair de Chocolate","Soupe à l'Oignon"].includes(receita.nome)
                     )
                 .map((receita) => (
                 <article
