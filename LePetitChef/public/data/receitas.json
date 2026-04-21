@@ -1128,159 +1128,213 @@
       "Asse até dourar."
     ]
   },
-  {
+   {
     "id": 50,
     "categoria": "Bebidas",
-    "nome": "Champagne",
-    "descricao": "Vinho espumante francês sofisticado",
-    "tempo": "Pronto",
+    "nome": "Kir",
+    "descricao": "Coquetel de vinho branco com licor de cassis",
+    "tempo": "5min",
     "dificuldade": "Fácil",
-    "imagem": "/img/champagne.png",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/kir.png",
     "ingredientes": [
-      "Uvas fermentadas"
+      "150ml de vinho branco seco",
+      "20ml de creme de cassis"
     ],
     "modoPreparo": [
-      "Sirva bem gelado em taças."
+      "Coloque o creme de cassis em uma taça.",
+      "Complete com o vinho branco gelado.",
+      "Misture levemente e sirva."
     ]
   },
   {
     "id": 51,
     "categoria": "Bebidas",
-    "nome": "Bordeaux",
-    "descricao": "Vinho tinto encorpado da região de Bordeaux",
-    "tempo": "Pronto",
+    "nome": "Kir Royal",
+    "descricao": "Versão sofisticada do Kir com champagne",
+    "tempo": "5min",
     "dificuldade": "Fácil",
-    "imagem": "/img/bordeaux.png",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/kir-royal.png",
     "ingredientes": [
-      "Uvas"
+      "150ml de champagne",
+      "20ml de creme de cassis"
     ],
     "modoPreparo": [
-      "Sirva em temperatura ambiente."
+      "Adicione o creme de cassis na taça.",
+      "Complete com champagne gelado.",
+      "Misture delicadamente e sirva."
     ]
   },
   {
     "id": 52,
     "categoria": "Bebidas",
-    "nome": "Bourgogne",
-    "descricao": "Vinho elegante da Borgonha",
-    "tempo": "Pronto",
-    "dificuldade": "Fácil",
-    "imagem": "/img/bourgogne.png",
+    "nome": "French 75",
+    "descricao": "Coquetel com gin, limão e champagne",
+    "tempo": "10min",
+    "dificuldade": "Médio",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/french75.png",
     "ingredientes": [
-      "Uvas"
+      "30ml de gin",
+      "15ml de suco de limão",
+      "10ml de xarope de açúcar",
+      "100ml de champagne",
+      "Gelo"
     ],
     "modoPreparo": [
-      "Sirva em taças apropriadas."
+      "Misture o gin, o suco de limão e o xarope em uma coqueteleira com gelo.",
+      "Agite bem.",
+      "Coe para uma taça.",
+      "Complete com champagne e sirva."
     ]
   },
   {
     "id": 53,
     "categoria": "Bebidas",
-    "nome": "Chablis",
-    "descricao": "Vinho branco seco e refrescante",
-    "tempo": "Pronto",
+    "nome": "Diabolo Menthe",
+    "descricao": "Bebida refrescante com xarope de menta",
+    "tempo": "5min",
     "dificuldade": "Fácil",
-    "imagem": "/img/chablis.png",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/diabolo.png",
     "ingredientes": [
-      "Uvas"
+      "200ml de água com gás",
+      "20ml de xarope de menta",
+      "Gelo"
     ],
     "modoPreparo": [
-      "Sirva gelado."
+      "Encha um copo com gelo.",
+      "Adicione o xarope de menta.",
+      "Complete com água com gás.",
+      "Misture e sirva."
     ]
   },
   {
     "id": 54,
     "categoria": "Bebidas",
-    "nome": "Cognac",
-    "descricao": "Destilado de uva envelhecido",
-    "tempo": "Pronto",
+    "nome": "Café au Lait",
+    "descricao": "Café com leite quente tradicional francês",
+    "tempo": "10min",
     "dificuldade": "Fácil",
-    "imagem": "/img/cognac.png",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/cafe-au-lait.png",
     "ingredientes": [
-      "Uvas fermentadas"
+      "100ml de café forte",
+      "100ml de leite",
+      "Açúcar a gosto"
     ],
     "modoPreparo": [
-      "Sirva em pequenas doses."
+      "Prepare o café.",
+      "Aqueça o leite sem ferver.",
+      "Misture o café com o leite.",
+      "Adoce a gosto e sirva."
     ]
   },
   {
     "id": 55,
     "categoria": "Bebidas",
-    "nome": "Armagnac",
-    "descricao": "Destilado francês tradicional e aromático",
-    "tempo": "Pronto",
+    "nome": "Chocolat Chaud",
+    "descricao": "Chocolate quente cremoso francês",
+    "tempo": "15min",
     "dificuldade": "Fácil",
-    "imagem": "/img/armagnac.png",
+    "porcoes": "2 pessoas",
+    "imagem": "/img/chocolat-chaud.png",
     "ingredientes": [
-      "Uvas"
+      "200ml de leite",
+      "100g de chocolate meio amargo",
+      "1 colher de sopa de açúcar",
+      "1 pitada de sal"
     ],
     "modoPreparo": [
-      "Sirva em temperatura ambiente."
+      "Aqueça o leite em fogo baixo.",
+      "Adicione o chocolate picado.",
+      "Mexa até derreter completamente.",
+      "Adicione açúcar e sal e sirva quente."
     ]
   },
   {
     "id": 56,
     "categoria": "Bebidas",
-    "nome": "Kir Royale",
-    "descricao": "Drink francês com champagne e cassis",
-    "tempo": "5min",
+    "nome": "Vin Chaud",
+    "descricao": "Vinho quente com especiarias",
+    "tempo": "20min",
     "dificuldade": "Fácil",
-    "imagem": "/img/kir-royale.png",
+    "porcoes": "4 pessoas",
+    "imagem": "/img/vin-chaud.png",
     "ingredientes": [
-      "Champagne",
-      "Licor de cassis"
+      "750ml de vinho tinto",
+      "1 pau de canela",
+      "2 cravos",
+      "Casca de laranja",
+      "2 colheres de açúcar"
     ],
     "modoPreparo": [
-      "Despeje o licor na taça.",
-      "Complete com champagne gelado."
+      "Aqueça o vinho em fogo baixo sem ferver.",
+      "Adicione as especiarias e o açúcar.",
+      "Deixe infusionar por 10 minutos.",
+      "Sirva quente."
     ]
   },
   {
     "id": 57,
     "categoria": "Bebidas",
-    "nome": "Pastis",
-    "descricao": "Bebida anisada muito popular no sul da França",
-    "tempo": "Pronto",
+    "nome": "Citron Pressé",
+    "descricao": "Limonada francesa tradicional",
+    "tempo": "5min",
     "dificuldade": "Fácil",
-    "imagem": "/img/pastis.png",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/citron-presse.png",
     "ingredientes": [
-      "Destilado de anis",
-      "Água"
+      "1 limão",
+      "200ml de água",
+      "Açúcar a gosto"
     ],
     "modoPreparo": [
-      "Misture com água fria antes de servir."
+      "Esprema o limão em um copo.",
+      "Adicione água e açúcar.",
+      "Misture bem e sirva."
     ]
   },
   {
     "id": 58,
     "categoria": "Bebidas",
-    "nome": "Calvados",
-    "descricao": "Destilado normando à base de maçã",
-    "tempo": "Pronto",
+    "nome": "Sirop à l’Eau",
+    "descricao": "Bebida com xarope de frutas diluído",
+    "tempo": "5min",
     "dificuldade": "Fácil",
-    "imagem": "/img/calvados.png",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/sirop.png",
     "ingredientes": [
-      "Maçã fermentada"
+      "200ml de água",
+      "20ml de xarope de fruta",
+      "Gelo"
     ],
     "modoPreparo": [
-      "Sirva em dose pequena."
+      "Coloque gelo em um copo.",
+      "Adicione o xarope.",
+      "Complete com água.",
+      "Misture e sirva."
     ]
   },
   {
     "id": 59,
     "categoria": "Bebidas",
-    "nome": "Chartreuse",
-    "descricao": "Licor herbal intenso e tradicional",
-    "tempo": "Pronto",
+    "nome": "Panaché",
+    "descricao": "Mistura refrescante de cerveja com limonada",
+    "tempo": "5min",
     "dificuldade": "Fácil",
-    "imagem": "/img/chartreuse.png",
+    "porcoes": "1 pessoa",
+    "imagem": "/img/panache.png",
     "ingredientes": [
-      "Ervas aromáticas",
-      "Álcool",
-      "Açúcar"
+      "100ml de cerveja clara",
+      "100ml de limonada",
+      "Gelo"
     ],
     "modoPreparo": [
-      "Sirva puro ou em coquetéis."
+      "Misture a cerveja com a limonada.",
+      "Adicione gelo.",
+      "Sirva imediatamente."
     ]
   }
 ]
