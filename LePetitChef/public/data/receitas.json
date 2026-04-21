@@ -33,7 +33,7 @@
     "descricao": "Frango cozido lentamente no vinho tinto",
     "tempo": "2h",
     "dificuldade": "Médio",
-    "imagem": "/img/coq-au-vin.png",
+    "imagem": "/img/coq au vin.png",
     "ingredientes": [
       "1 kg de frango",
       "750 ml de vinho tinto",
@@ -333,12 +333,7 @@
     "tempo": "45min",
     "dificuldade": "Médio",
     "imagem": "/img/magret-de-canard.png",
-    "ingredientes": [
-      "2 peitos de pato",
-      "Sal",
-      "Pimenta",
-      "Ervas"
-    ],
+    "ingredientes": ["2 peitos de pato", "Sal", "Pimenta", "Ervas"],
     "modoPreparo": [
       "Faça cortes leves na pele do pato.",
       "Tempere com sal e pimenta.",
@@ -612,13 +607,7 @@
     "tempo": "2h",
     "dificuldade": "Médio",
     "imagem": "/img/terrine.png",
-    "ingredientes": [
-      "Carne moída",
-      "Ervas",
-      "Pimenta",
-      "Sal",
-      "Ovos"
-    ],
+    "ingredientes": ["Carne moída", "Ervas", "Pimenta", "Sal", "Ovos"],
     "modoPreparo": [
       "Misture os ingredientes.",
       "Distribua em uma forma.",
@@ -634,14 +623,7 @@
     "tempo": "45min",
     "dificuldade": "Médio",
     "imagem": "/img/souffle-de-queijo.png",
-    "ingredientes": [
-      "Manteiga",
-      "Farinha",
-      "Leite",
-      "Queijo",
-      "Ovos",
-      "Sal"
-    ],
+    "ingredientes": ["Manteiga", "Farinha", "Leite", "Queijo", "Ovos", "Sal"],
     "modoPreparo": [
       "Faça uma base cremosa com manteiga, farinha e leite.",
       "Adicione queijo e gemas.",
@@ -657,13 +639,7 @@
     "tempo": "35min",
     "dificuldade": "Fácil",
     "imagem": "/img/gougeres.png",
-    "ingredientes": [
-      "Água",
-      "Manteiga",
-      "Farinha",
-      "Ovos",
-      "Queijo ralado"
-    ],
+    "ingredientes": ["Água", "Manteiga", "Farinha", "Ovos", "Queijo ralado"],
     "modoPreparo": [
       "Prepare uma massa choux.",
       "Misture o queijo.",
@@ -772,12 +748,7 @@
     "tempo": "1h",
     "dificuldade": "Médio",
     "imagem": "/img/tarte-tatin.png",
-    "ingredientes": [
-      "Maçãs",
-      "Açúcar",
-      "Manteiga",
-      "Massa folhada"
-    ],
+    "ingredientes": ["Maçãs", "Açúcar", "Manteiga", "Massa folhada"],
     "modoPreparo": [
       "Caramelize o açúcar com manteiga.",
       "Distribua as maçãs.",
@@ -816,12 +787,7 @@
     "tempo": "1h",
     "dificuldade": "Médio",
     "imagem": "/img/profiteroles.png",
-    "ingredientes": [
-      "Massa choux",
-      "Sorvete",
-      "Chocolate",
-      "Creme de leite"
-    ],
+    "ingredientes": ["Massa choux", "Sorvete", "Chocolate", "Creme de leite"],
     "modoPreparo": [
       "Asse pequenas carolinas.",
       "Recheie com sorvete.",
@@ -924,13 +890,7 @@
     "tempo": "45min",
     "dificuldade": "Médio",
     "imagem": "/img/ile-flottante.png",
-    "ingredientes": [
-      "Claras",
-      "Açúcar",
-      "Leite",
-      "Gemas",
-      "Baunilha"
-    ],
+    "ingredientes": ["Claras", "Açúcar", "Leite", "Gemas", "Baunilha"],
     "modoPreparo": [
       "Prepare o merengue.",
       "Cozinhe delicadamente no leite.",
@@ -988,14 +948,7 @@
     "tempo": "1h 10min",
     "dificuldade": "Médio",
     "imagem": "/img/caneles.png",
-    "ingredientes": [
-      "Leite",
-      "Farinha",
-      "Ovos",
-      "Açúcar",
-      "Baunilha",
-      "Rum"
-    ],
+    "ingredientes": ["Leite", "Farinha", "Ovos", "Açúcar", "Baunilha", "Rum"],
     "modoPreparo": [
       "Prepare uma massa líquida e aromatizada.",
       "Descanse a massa.",
@@ -1032,14 +985,7 @@
     "tempo": "1h 30min",
     "dificuldade": "Médio",
     "imagem": "/img/baba-au-rhum.png",
-    "ingredientes": [
-      "Farinha",
-      "Ovos",
-      "Fermento",
-      "Açúcar",
-      "Rum",
-      "Água"
-    ],
+    "ingredientes": ["Farinha", "Ovos", "Fermento", "Açúcar", "Rum", "Água"],
     "modoPreparo": [
       "Prepare e asse a massa.",
       "Faça a calda de rum.",
@@ -1054,12 +1000,7 @@
     "tempo": "30min + geladeira",
     "dificuldade": "Fácil",
     "imagem": "/img/mousse-au-chocolat.png",
-    "ingredientes": [
-      "Chocolate amargo",
-      "Ovos",
-      "Açúcar",
-      "Creme de leite"
-    ],
+    "ingredientes": ["Chocolate amargo", "Ovos", "Açúcar", "Creme de leite"],
     "modoPreparo": [
       "Derreta o chocolate.",
       "Misture com gemas.",
@@ -1075,10 +1016,7 @@
     "tempo": "35min",
     "dificuldade": "Fácil",
     "imagem": "/img/palmiers.png",
-    "ingredientes": [
-      "Massa folhada",
-      "Açúcar"
-    ],
+    "ingredientes": ["Massa folhada", "Açúcar"],
     "modoPreparo": [
       "Abra a massa e cubra com açúcar.",
       "Enrole dos dois lados até o centro.",
@@ -1128,7 +1066,7 @@
       "Asse até dourar."
     ]
   },
-   {
+  {
     "id": 50,
     "categoria": "Bebidas",
     "nome": "Kir",
@@ -1137,10 +1075,7 @@
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
     "imagem": "/img/kir.png",
-    "ingredientes": [
-      "150ml de vinho branco seco",
-      "20ml de creme de cassis"
-    ],
+    "ingredientes": ["150ml de vinho branco seco", "20ml de creme de cassis"],
     "modoPreparo": [
       "Coloque o creme de cassis em uma taça.",
       "Complete com o vinho branco gelado.",
@@ -1156,10 +1091,7 @@
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
     "imagem": "/img/kir-royal.png",
-    "ingredientes": [
-      "150ml de champagne",
-      "20ml de creme de cassis"
-    ],
+    "ingredientes": ["150ml de champagne", "20ml de creme de cassis"],
     "modoPreparo": [
       "Adicione o creme de cassis na taça.",
       "Complete com champagne gelado.",
@@ -1219,11 +1151,7 @@
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
     "imagem": "/img/cafe-au-lait.png",
-    "ingredientes": [
-      "100ml de café forte",
-      "100ml de leite",
-      "Açúcar a gosto"
-    ],
+    "ingredientes": ["100ml de café forte", "100ml de leite", "Açúcar a gosto"],
     "modoPreparo": [
       "Prepare o café.",
       "Aqueça o leite sem ferver.",
@@ -1285,11 +1213,7 @@
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
     "imagem": "/img/citron-presse.png",
-    "ingredientes": [
-      "1 limão",
-      "200ml de água",
-      "Açúcar a gosto"
-    ],
+    "ingredientes": ["1 limão", "200ml de água", "Açúcar a gosto"],
     "modoPreparo": [
       "Esprema o limão em um copo.",
       "Adicione água e açúcar.",
@@ -1305,11 +1229,7 @@
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
     "imagem": "/img/sirop.png",
-    "ingredientes": [
-      "200ml de água",
-      "20ml de xarope de fruta",
-      "Gelo"
-    ],
+    "ingredientes": ["200ml de água", "20ml de xarope de fruta", "Gelo"],
     "modoPreparo": [
       "Coloque gelo em um copo.",
       "Adicione o xarope.",
@@ -1326,11 +1246,7 @@
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
     "imagem": "/img/panache.png",
-    "ingredientes": [
-      "100ml de cerveja clara",
-      "100ml de limonada",
-      "Gelo"
-    ],
+    "ingredientes": ["100ml de cerveja clara", "100ml de limonada", "Gelo"],
     "modoPreparo": [
       "Misture a cerveja com a limonada.",
       "Adicione gelo.",
