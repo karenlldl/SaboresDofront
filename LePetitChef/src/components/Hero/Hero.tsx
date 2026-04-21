@@ -31,9 +31,13 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           backdrop-blur-sm
         "
       >
-        <span className="absolute left-6 text-white font-poppins">
-          Le Petit Chef
-        </span>
+        <a href="#home" className="absolute left-6">
+  <img
+    src="/img/logo.png"
+    alt="Le Petit Chef"
+    className="h-10 md:h-12 object-contain cursor-pointer"
+  />
+</a>
 
         <nav
           className={`
