@@ -14,81 +14,75 @@ const Hero = () => {
     <>
       {/* ===== NAVBAR ===== */}
       <header
+  className="
+    fixed top-0 left-0 right-0 z-50
+    flex items-center justify-center
+    px-6 md:px-12 min-h-18
+    backdrop-blur-sm
+  "
+>
+  {/* LOGO (ESQUERDA) */}
+  <span className="absolute left-6 text-white font-poppins">
+    Le Petit Chef
+  </span>
+
+  {/* NAV CENTRAL */}
+  <nav
+    className={`
+      ${menuOpen ? "max-h-60 py-3" : "max-h-0 md:max-h-none"}
+      overflow-hidden md:overflow-visible
+      flex flex-col md:flex-row
+      items-center justify-center
+      gap-6 md:gap-14
+      transition-all duration-300
+    `}
+  >
+    {navItems.map((item) => (
+      <a
+        key={item.id}
+        href={`#${item.id}`}
+        onClick={() => setMenuOpen(false)}
         className="
-          fixed top-0 left-0 right-0 z-50
-          flex flex-wrap items-center gap-4 md:gap-8
-          px-6 md:px-12 min-h-18
-          bg-[#8fafc0]/0 backdrop-blur-sm
+          relative text-white font-semibold
+          text-lg md:text-xl
+          tracking-wide
+          hover:opacity-75 transition
+          after:content-[''] after:absolute after:-bottom-1 after:left-0
+          after:h-0.5 after:w-0 after:bg-white after:transition-all
+          hover:after:w-full
         "
       >
-        {/* Logo */}
-        <span className="text-white font-poppins text-base tracking-wide mr-auto">
-          Le Petit Chef
-        </span>
+        {item.label}
+      </a>
+    ))}
+  </nav>
 
-        {/* BOTÃO HAMBURGER */}
-        <button
-          className="flex md:hidden flex-col justify-between w-6 h-4.5 z-50"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <span
-            className={`h-0.5 bg-white transition ${
-              menuOpen ? "rotate-45 translate-y-2" : ""
-            }`}
-          />
-          <span
-            className={`h-0.5 bg-white transition ${
-              menuOpen ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`h-0.5 bg-white transition ${
-              menuOpen ? "-rotate-45 -translate-y-2" : ""
-            }`}
-          />
-        </button>
+  {/* BUSCA (DIREITA) */}
+  <div className="absolute right-6 hidden md:flex items-center">
+    <div
+      className="
+        flex items-center gap-2
+        bg-[#e7e1d9]
+        px-4 py-2 rounded-full
+        text-[#1d2d5a]
+      "
+    >
+      {/* Ícone */}
+      <span className="text-sm">🔍</span>
 
-        {/* MENU */}
-        <nav
-          className={`
-            ${menuOpen ? "max-h-60 py-3" : "max-h-0 md:max-h-none"}
-            overflow-hidden md:overflow-visible
-            w-full md:w-auto
-            flex flex-col md:flex-row
-            gap-4 md:gap-10
-            transition-all duration-300
-          `}
-        >
-          {navItems.map((item) => (
-            <a
-              key={item.id}
-              href={`#${item.id}`}
-              onClick={() => setMenuOpen(false)}
-              className="
-                relative text-white font-poppins font-semibold text-sm
-                hover:opacity-75 transition
-                after:content-[''] after:absolute after:-bottom-1 after:left-0
-                after:h-0.5 after:w-0 after:bg-white after:transition-all
-                hover:after:w-full
-              "
-            >
-              {item.label}
-            </a>
-          ))}
-        </nav>
-
-        {/* BOTÃO BUSCAR */}
-        <button
-          className="
-            hidden md:flex items-center gap-2
-            bg-[#2b4b5e] hover:bg-[#1e3647]
-            text-white px-5 py-2 rounded-full
-            transition hover:scale-105
-          "
-        >
-          🔍 Buscar
-        </button>
-      </header>
+      {/* Input */}
+      <input
+        type="text"
+        placeholder="Buscar receitas..."
+        className="
+          bg-transparent outline-none
+          text-sm placeholder:text-[#6b7280]
+          w-[160px]
+        "
+      />
+    </div>
+  </div>
+</header>
 
       {/* ===== HERO ===== */}
       <section
