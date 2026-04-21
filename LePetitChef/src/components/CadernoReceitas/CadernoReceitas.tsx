@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import type { AbaAuth, Usuario } from "../../App";
 
 type Receita = {
   id: number;
@@ -13,13 +14,36 @@ type Receita = {
   modoPreparo: string[];
 };
 
-const categorias = ["Todas", "Entradas", "Prato Principal", "Sobremesas"];
+type CadernoReceitasProps = {
+  usuario: Usuario;
+  setUsuario: React.Dispatch<React.SetStateAction<Usuario>>;
+  mostrarAuthModal: boolean;
+  abaAuth: AbaAuth;
+  abrirAuthModal: (aba: AbaAuth) => void;
+  fecharAuthModal: () => void;
+};
 
-const CadernoReceitas = () => {
+const categorias = ["Todas", "Entradas", "Prato Principal", "Sobremesas", "Bebidas"];
+
+const CadernoReceitas = ({
+  usuario,
+  setUsuario,
+  mostrarAuthModal,
+  abaAuth,
+  abrirAuthModal,
+  fecharAuthModal,
+}: CadernoReceitasProps) => {
   const [receitas, setReceitas] = useState<Receita[]>([]);
   const [categoriaAtiva, setCategoriaAtiva] = useState("Todas");
   const [busca, setBusca] = useState("");
   const [receitaSelecionada, setReceitaSelecionada] = useState<Receita | null>(null);
+
+  const [loginEmail, setLoginEmail] = useState("");
+  const [loginSenha, setLoginSenha] = useState("");
+
+  const [cadastroNome, setCadastroNome] = useState("");
+  const [cadastroEmail, setCadastroEmail] = useState("");
+  const [cadastroSenha, setCadastroSenha] = useState("");
 
   useEffect(() => {
     fetch("/data/receitas.json")
@@ -39,8 +63,53 @@ const CadernoReceitas = () => {
     return categoriaValida && buscaValida;
   });
 
+  const receitasVisiveis = usuario
+    ? receitasFiltradas
+    : receitasFiltradas.slice(0, 8);
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!loginEmail.trim() || !loginSenha.trim()) {
+      alert("Preencha e-mail e senha.");
+      return;
+    }
+
+    const nomeDoEmail = loginEmail.split("@")[0];
+    const nomeFormatado =
+      nomeDoEmail.charAt(0).toUpperCase() + nomeDoEmail.slice(1);
+
+    setUsuario({
+      nome: nomeFormatado,
+      email: loginEmail,
+    });
+
+    fecharAuthModal();
+    setLoginEmail("");
+    setLoginSenha("");
+  };
+
+  const handleCadastro = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!cadastroNome.trim() || !cadastroEmail.trim() || !cadastroSenha.trim()) {
+      alert("Preencha nome, e-mail e senha.");
+      return;
+    }
+
+    setUsuario({
+      nome: cadastroNome,
+      email: cadastroEmail,
+    });
+
+    fecharAuthModal();
+    setCadastroNome("");
+    setCadastroEmail("");
+    setCadastroSenha("");
+  };
+
   return (
-    <section id="caderno-receitas" className="bg-[#c7d9e6] px-4 py-16 md:px-8">
+    <section id="receitas" className="bg-[#c7d9e6] px-4 py-16 md:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
           <p className="font-serif text-2xl italic text-red-500">
@@ -85,7 +154,7 @@ const CadernoReceitas = () => {
         </div>
 
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {receitasFiltradas.map((receita) => (
+          {receitasVisiveis.map((receita) => (
             <article
               key={receita.id}
               className="overflow-hidden rounded-[1.8rem] bg-[#c7d9e6] shadow-md transition duration-300 hover:-translate-y-1"
@@ -107,7 +176,7 @@ const CadernoReceitas = () => {
                   {receita.nome}
                 </h3>
 
-                <p className="mt-2 min-h-[48px] text-sm italic text-slate-600">
+                <p className="mt-2 min-h-12 text-sm italic text-slate-600">
                   {receita.descricao}
                 </p>
 
@@ -127,6 +196,21 @@ const CadernoReceitas = () => {
           ))}
         </div>
 
+        {!usuario && receitasFiltradas.length > 8 && (
+          <div className="mt-10 text-center">
+            <p className="mb-4 text-sm text-slate-600">
+              Faça login ou cadastro para ver todas as receitas.
+            </p>
+
+            <button
+              onClick={() => abrirAuthModal("login")}
+              className="rounded-full bg-red-500 px-8 py-3 text-sm font-semibold text-white transition hover:bg-red-600"
+            >
+              Ver mais receitas
+            </button>
+          </div>
+        )}
+
         {receitasFiltradas.length === 0 && (
           <p className="mt-10 text-center text-slate-600">
             Nenhuma receita encontrada.
@@ -136,7 +220,7 @@ const CadernoReceitas = () => {
 
       {receitaSelecionada && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/55 px-3 py-6">
-          <div className="relative max-h-[95vh] w-full max-w-6xl overflow-y-auto rounded-[1.5rem] bg-[#c7d9e6] shadow-2xl">
+          <div className="relative max-h-[95vh] w-full max-w-6xl overflow-y-auto rounded-3xl bg-[#c7d9e6] shadow-2xl">
             <button
               onClick={() => setReceitaSelecionada(null)}
               className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full border border-red-400 bg-white/70 text-red-500 transition hover:bg-white"
@@ -145,7 +229,7 @@ const CadernoReceitas = () => {
               ✕
             </button>
 
-            <div className="relative h-[220px] md:h-[280px]">
+            <div className="relative h-55 md:h-70">
               <img
                 src={receitaSelecionada.imagem}
                 alt={receitaSelecionada.nome}
@@ -183,7 +267,7 @@ const CadernoReceitas = () => {
                 <ul className="space-y-3 text-base text-slate-700">
                   {receitaSelecionada.ingredientes.map((ingrediente, index) => (
                     <li key={index} className="flex gap-3">
-                      <span className="mt-[9px] h-2 w-2 rounded-full bg-red-500" />
+                      <span className="mt-2.25 h-2 w-2 rounded-full bg-red-500" />
                       <span>{ingrediente}</span>
                     </li>
                   ))}
@@ -210,6 +294,113 @@ const CadernoReceitas = () => {
                 </ol>
               </div>
             </div>
+          </div>
+        </div>
+      )}
+
+      {mostrarAuthModal && (
+        <div className="fixed inset-0 z-60 flex items-center justify-center bg-black/60 px-4 py-6">
+          <div className="relative w-full max-w-md rounded-[1.8rem] bg-[#f6f0ea] p-6 shadow-2xl">
+            <button
+              onClick={fecharAuthModal}
+              className="absolute right-4 top-4 text-lg text-slate-500 transition hover:text-red-500"
+              aria-label="Fechar"
+            >
+              ✕
+            </button>
+
+            <div className="mb-6 text-center">
+              <h3 className="font-serif text-3xl font-bold text-[#1d2d5a]">
+                Acesse o caderno completo
+              </h3>
+              <p className="mt-2 text-sm text-slate-600">
+                Faça login ou crie sua conta para ver todas as receitas.
+              </p>
+            </div>
+
+            <div className="mb-6 flex rounded-full bg-[#d8e5ef] p-1">
+              <button
+                onClick={() => abrirAuthModal("login")}
+                className={`flex-1 rounded-full px-4 py-2 text-sm font-semibold transition ${
+                  abaAuth === "login"
+                    ? "bg-[#1f2f52] text-white"
+                    : "text-[#1f2f52]"
+                }`}
+              >
+                Login
+              </button>
+
+              <button
+                onClick={() => abrirAuthModal("cadastro")}
+                className={`flex-1 rounded-full px-4 py-2 text-sm font-semibold transition ${
+                  abaAuth === "cadastro"
+                    ? "bg-[#1f2f52] text-white"
+                    : "text-[#1f2f52]"
+                }`}
+              >
+                Cadastro
+              </button>
+            </div>
+
+            {abaAuth === "login" ? (
+              <form onSubmit={handleLogin} className="space-y-4">
+                <input
+                  type="email"
+                  placeholder="Seu e-mail"
+                  value={loginEmail}
+                  onChange={(e) => setLoginEmail(e.target.value)}
+                  className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none focus:border-[#1d2d5a]"
+                />
+
+                <input
+                  type="password"
+                  placeholder="Sua senha"
+                  value={loginSenha}
+                  onChange={(e) => setLoginSenha(e.target.value)}
+                  className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none focus:border-[#1d2d5a]"
+                />
+
+                <button
+                  type="submit"
+                  className="w-full rounded-full bg-red-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-600"
+                >
+                  Entrar
+                </button>
+              </form>
+            ) : (
+              <form onSubmit={handleCadastro} className="space-y-4">
+                <input
+                  type="text"
+                  placeholder="Seu nome"
+                  value={cadastroNome}
+                  onChange={(e) => setCadastroNome(e.target.value)}
+                  className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none focus:border-[#1d2d5a]"
+                />
+
+                <input
+                  type="email"
+                  placeholder="Seu e-mail"
+                  value={cadastroEmail}
+                  onChange={(e) => setCadastroEmail(e.target.value)}
+                  className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none focus:border-[#1d2d5a]"
+                />
+
+                <input
+                  type="password"
+                  placeholder="Crie uma senha"
+                  value={cadastroSenha}
+                  onChange={(e) => setCadastroSenha(e.target.value)}
+                  className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none focus:border-[#1d2d5a]"
+                />
+
+                <button
+                  type="submit"
+                  className="w-full rounded-full bg-red-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-600"
+                >
+                  Criar conta
+                </button>
+              </form>
+            )}
           </div>
         </div>
       )}

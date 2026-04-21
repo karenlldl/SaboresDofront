@@ -1,4 +1,5 @@
 import { useState } from "react";
+import type { AbaAuth, Usuario } from "../../App";
 
 const navItems = [
   { label: "Receitas", id: "receitas" },
@@ -7,84 +8,93 @@ const navItems = [
   { label: "Equipe", id: "equipe" },
 ];
 
-const Hero = () => {
+type HeroProps = {
+  usuario: Usuario;
+  setUsuario: React.Dispatch<React.SetStateAction<Usuario>>;
+  abrirAuthModal: (aba: AbaAuth) => void;
+};
+
+const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleLogout = () => {
+    setUsuario(null);
+  };
 
   return (
     <>
-      {/* ===== NAVBAR ===== */}
       <header
-  className="
-    fixed top-0 left-0 right-0 z-50
-    flex items-center justify-center
-    px-6 md:px-12 min-h-18
-    backdrop-blur-sm
-  "
->
-  {/* LOGO (ESQUERDA) */}
-  <span className="absolute left-6 text-white font-poppins">
-    Le Petit Chef
-  </span>
-
-  {/* NAV CENTRAL */}
-  <nav
-    className={`
-      ${menuOpen ? "max-h-60 py-3" : "max-h-0 md:max-h-none"}
-      overflow-hidden md:overflow-visible
-      flex flex-col md:flex-row
-      items-center justify-center
-      gap-6 md:gap-14
-      transition-all duration-300
-    `}
-  >
-    {navItems.map((item) => (
-      <a
-        key={item.id}
-        href={`#${item.id}`}
-        onClick={() => setMenuOpen(false)}
         className="
-          relative text-white font-semibold
-          text-lg md:text-xl
-          tracking-wide
-          hover:opacity-75 transition
-          after:content-[''] after:absolute after:-bottom-1 after:left-0
-          after:h-0.5 after:w-0 after:bg-white after:transition-all
-          hover:after:w-full
+          fixed top-0 left-0 right-0 z-50
+          flex items-center justify-center
+          px-6 md:px-12 min-h-18
+          backdrop-blur-sm
         "
       >
-        {item.label}
-      </a>
-    ))}
-  </nav>
+        <span className="absolute left-6 text-white font-poppins">
+          Le Petit Chef
+        </span>
 
-  {/* BUSCA (DIREITA) */}
-  <div className="absolute right-6 hidden md:flex items-center">
-    <div
-      className="
-        flex items-center gap-2
-        bg-[#e7e1d9]
-        px-4 py-2 rounded-full
-        text-[#1d2d5a]
-      "
-    >
-      {/* Ícone */}
-      <span className="text-sm">🔍</span>
+        <nav
+          className={`
+            ${menuOpen ? "max-h-60 py-3" : "max-h-0 md:max-h-none"}
+            overflow-hidden md:overflow-visible
+            flex flex-col md:flex-row
+            items-center justify-center
+            gap-6 md:gap-14
+            transition-all duration-300
+          `}
+        >
+          {navItems.map((item) => (
+            <a
+              key={item.id}
+              href={`#${item.id}`}
+              onClick={() => setMenuOpen(false)}
+              className="
+                relative text-white font-semibold
+                text-lg md:text-xl
+                tracking-wide
+                hover:opacity-75 transition
+                after:content-[''] after:absolute after:-bottom-1 after:left-0
+                after:h-0.5 after:w-0 after:bg-white after:transition-all
+                hover:after:w-full
+              "
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
 
-      {/* Input */}
-      <input
-        type="text"
-        placeholder="Buscar receitas..."
-        className="
-          bg-transparent outline-none
-          text-sm placeholder:text-[#6b7280]
-          w-[160px]
-        "
-      />
-    </div>
-  </div>
-</header>
+        <div className="absolute right-6 hidden md:flex items-center gap-3">
+          {usuario ? (
+            <>
+              <div className="flex items-center gap-2 rounded-full bg-[#e7e1d9] px-4 py-2 text-[#1d2d5a] shadow-sm">
+                <span className="text-base">👤</span>
+                <span className="text-sm font-semibold">
+                  Olá, {usuario.nome}
+                </span>
+              </div>
 
-      {/* ===== HERO ===== */}
+              <button
+                type="button"
+                onClick={handleLogout}
+                className="flex items-center gap-2 rounded-full border border-white/70 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/15"
+              >
+                <span>Sair</span>
+              </button>
+            </>
+          ) : (
+            <button
+              type="button"
+              onClick={() => abrirAuthModal("login")}
+              className="flex items-center gap-2 rounded-full bg-[#1f2f52] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#16223b]"
+            >
+              <span>Entre ou Cadastre-se</span>
+            </button>
+          )}
+        </div>
+      </header>
+
       <section
         className="
           relative min-h-screen pt-20
@@ -92,7 +102,6 @@ const Hero = () => {
           flex items-center
         "
       >
-        {/* BLOB */}
         <div
           className="
             absolute -top-20 -right-20
@@ -104,7 +113,6 @@ const Hero = () => {
           }}
         />
 
-        {/* TEXTO FUNDO */}
         <h1
           className="
             absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
@@ -115,7 +123,6 @@ const Hero = () => {
           SABORES
         </h1>
 
-        {/* TEXTO EXTRA */}
         <p
           className="
             absolute left-1/2 -translate-x-1/2 text-white/50
@@ -130,7 +137,6 @@ const Hero = () => {
           <span>front</span>
         </p>
 
-        {/* TEXTO LATERAL */}
         <div className="absolute left-8 bottom-20 text-white">
           <p className="mb-3">
             Os sabores do <br /> Ratatouille na <br /> sua casa.
@@ -140,11 +146,11 @@ const Hero = () => {
           </p>
         </div>
 
-        {/* IMAGEM */}
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
           <img
             src="/img/remy.png"
-            className="w-[400px] md:w-[500px]"
+            alt="Rémy"
+            className="w-100 md:w-125"
           />
         </div>
       </section>
