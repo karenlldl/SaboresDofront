@@ -3,225 +3,769 @@
     "id": 1,
     "categoria": "Prato Principal",
     "nome": "Ratatouille",
-    "descricao": "Espiral de legumes provençal",
+    "descricao": "Espiral de legumes provençal assada lentamente",
     "tempo": "1h 15min",
     "dificuldade": "Médio",
     "imagem": "/img/ratatouille.png",
     "ingredientes": [
-      "1 abobrinha em fatias finas",
-      "1 abobrinha amarela em fatias finas",
-      "1 berinjela pequena em fatias finas",
-      "4 tomates maduros em fatias finas",
+      "1 abobrinha",
+      "1 berinjela",
+      "4 tomates",
       "1 pimentão vermelho",
-      "3 dentes de alho picados",
-      "2 colheres de sopa de azeite",
-      "Tomilho e manjericão frescos",
-      "Sal e pimenta a gosto"
+      "2 dentes de alho",
+      "Azeite",
+      "Tomilho",
+      "Sal",
+      "Pimenta"
     ],
     "modoPreparo": [
-      "Pré-aqueça o forno a 190°C.",
-      "Faça a base refogando cebola, pimentão e alho no azeite com tomate até formar um molho.",
-      "Espalhe o molho no fundo de uma travessa.",
-      "Disponha as fatias de legumes em espiral.",
-      "Regue com azeite e tempere com sal, pimenta e ervas.",
-      "Cubra com papel manteiga e asse por 45 minutos.",
-      "Retire o papel e asse por mais 15 minutos antes de servir."
+      "Corte os legumes em fatias finas.",
+      "Refogue alho e pimentão com tomate para criar uma base.",
+      "Disponha os legumes em espiral sobre o molho.",
+      "Tempere com azeite, sal, pimenta e tomilho.",
+      "Asse até os legumes ficarem macios e levemente dourados."
     ]
   },
   {
     "id": 2,
-    "categoria": "Sobremesas",
-    "nome": "Crème Brûlée",
-    "descricao": "Creme de baunilha com crosta de caramelo",
-    "tempo": "45min + geladeira",
-    "dificuldade": "Fácil",
-    "imagem": "/img/creme.jpg",
+    "categoria": "Prato Principal",
+    "nome": "Coq au Vin",
+    "descricao": "Frango cozido lentamente no vinho tinto",
+    "tempo": "2h",
+    "dificuldade": "Médio",
+    "imagem": "/img/coq-au-vin.png",
     "ingredientes": [
-      "500ml de creme de leite fresco",
-      "1 fava de baunilha ou 1 colher de chá de extrato",
-      "5 gemas",
-      "80g de açúcar para o creme",
-      "4 colheres de açúcar para a cobertura",
-      "1 pitada de sal"
+      "1 kg de frango",
+      "750 ml de vinho tinto",
+      "150 g de bacon",
+      "200 g de cogumelos",
+      "12 cebolinhas",
+      "2 dentes de alho",
+      "1 cenoura",
+      "Tomilho",
+      "Louro",
+      "Sal",
+      "Pimenta"
     ],
     "modoPreparo": [
-      "Pré-aqueça o forno a 150°C.",
-      "Aqueça o creme de leite com a baunilha sem deixar ferver.",
-      "Bata as gemas com o açúcar e o sal até misturar bem.",
-      "Adicione o creme morno aos poucos às gemas, mexendo sempre.",
-      "Distribua em ramequins e asse em banho-maria por 35 a 40 minutos.",
-      "Leve à geladeira por pelo menos 4 horas.",
-      "Polvilhe açúcar por cima e queime com maçarico até formar a crosta caramelizada."
+      "Doure o frango em uma panela grande.",
+      "Refogue o bacon, os cogumelos e as cebolinhas.",
+      "Adicione alho, cenoura e ervas.",
+      "Despeje o vinho e cozinhe em fogo baixo.",
+      "Sirva quando o frango estiver bem macio."
     ]
   },
   {
     "id": 3,
-    "categoria": "Sobremesas",
-    "nome": "Éclair de Chocolate",
-    "descricao": "Massa choux, creme e ganache",
-    "tempo": "1h 30min",
-    "dificuldade": "Difícil",
-    "imagem": "/img/eclair.png",
+    "categoria": "Prato Principal",
+    "nome": "Boeuf Bourguignon",
+    "descricao": "Carne bovina braseada no vinho tinto",
+    "tempo": "3h",
+    "dificuldade": "Médio",
+    "imagem": "/img/boeuf-bourguignon.png",
     "ingredientes": [
-      "125ml de água",
-      "60g de manteiga",
-      "75g de farinha de trigo",
-      "2 ovos grandes",
-      "300ml de leite",
-      "3 gemas",
-      "60g de açúcar",
-      "25g de amido de milho",
-      "150g de chocolate amargo",
-      "75ml de creme de leite"
+      "1 kg de carne bovina em cubos",
+      "150 g de bacon",
+      "750 ml de vinho tinto",
+      "2 cenouras",
+      "12 cebolinhas",
+      "200 g de cogumelos",
+      "2 dentes de alho",
+      "Farinha",
+      "Tomilho",
+      "Louro"
     ],
     "modoPreparo": [
-      "Ferva a água com a manteiga e adicione a farinha de uma vez.",
-      "Mexa até formar uma massa que solte do fundo da panela.",
-      "Deixe amornar e incorpore os ovos um a um.",
-      "Modele os éclairs em uma assadeira e asse a 200°C por cerca de 25 minutos.",
-      "Prepare o creme cozinhando leite, gemas, açúcar e amido até engrossar.",
-      "Recheie os éclairs já frios com o creme.",
-      "Finalize cobrindo com ganache de chocolate."
+      "Doure o bacon e reserve.",
+      "Sele a carne na mesma panela.",
+      "Misture farinha à carne.",
+      "Adicione vinho, legumes e ervas.",
+      "Cozinhe lentamente até a carne ficar macia."
     ]
   },
   {
     "id": 4,
-    "categoria": "Entradas",
-    "nome": "Soupe à l'Oignon",
-    "descricao": "Sopa de cebola gratinada",
-    "tempo": "1h",
-    "dificuldade": "Fácil",
-    "imagem": "/img/soupe.png",
+    "categoria": "Prato Principal",
+    "nome": "Cassoulet",
+    "descricao": "Ensopado robusto de feijão branco com carnes",
+    "tempo": "3h 30min",
+    "dificuldade": "Difícil",
+    "imagem": "/img/cassoulet.png",
     "ingredientes": [
-      "4 cebolas grandes fatiadas",
-      "2 colheres de sopa de manteiga",
-      "1 colher de sopa de farinha",
-      "1 litro de caldo de carne",
-      "1/2 xícara de vinho branco",
-      "Fatias de pão",
-      "Queijo gruyère ralado",
-      "Sal e pimenta a gosto"
+      "500 g de feijão branco",
+      "200 g de linguiça",
+      "300 g de carne suína",
+      "200 g de pato",
+      "1 cebola",
+      "2 dentes de alho",
+      "Caldo de carne",
+      "Tomilho",
+      "Sal",
+      "Pimenta"
     ],
     "modoPreparo": [
-      "Derreta a manteiga e cozinhe as cebolas até caramelizarem.",
-      "Adicione a farinha e misture bem.",
-      "Acrescente o vinho branco e o caldo de carne.",
-      "Tempere com sal e pimenta e cozinhe por 30 minutos.",
-      "Distribua a sopa em tigelas próprias para forno.",
-      "Coloque uma fatia de pão por cima e cubra com queijo.",
-      "Leve ao forno para gratinar antes de servir."
+      "Cozinhe o feijão até ficar macio.",
+      "Doure as carnes separadamente.",
+      "Monte tudo em uma panela funda com caldo e ervas.",
+      "Cozinhe lentamente até engrossar.",
+      "Sirva bem quente."
     ]
   },
   {
     "id": 5,
-    "categoria": "Entradas",
-    "nome": "Escargots à la Bourguignonne",
-    "descricao": "Caracóis com manteiga de alho e salsa",
-    "tempo": "30min",
-    "dificuldade": "Médio",
-    "imagem": "/img/escargots.png",
+    "categoria": "Prato Principal",
+    "nome": "Steak Frites",
+    "descricao": "Bife grelhado servido com batatas fritas",
+    "tempo": "40min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/steak-frites.png",
     "ingredientes": [
-      "12 escargots prontos para preparo",
-      "100g de manteiga",
-      "2 dentes de alho picados",
-      "2 colheres de sopa de salsa picada",
-      "Sal a gosto",
-      "Pimenta-do-reino a gosto"
+      "2 bifes",
+      "4 batatas",
+      "Manteiga",
+      "Azeite",
+      "Sal",
+      "Pimenta"
     ],
     "modoPreparo": [
-      "Misture a manteiga com alho, salsa, sal e pimenta.",
-      "Coloque um pouco da manteiga temperada em cada cavidade da forma.",
-      "Adicione os escargots e cubra com mais manteiga.",
-      "Leve ao forno preaquecido a 200°C por cerca de 10 minutos.",
-      "Sirva quente com pão para acompanhar."
+      "Tempere os bifes com sal e pimenta.",
+      "Frite as batatas até dourarem.",
+      "Grelhe os bifes no ponto desejado.",
+      "Finalize o bife com manteiga.",
+      "Sirva imediatamente."
     ]
   },
   {
     "id": 6,
-    "categoria": "Entradas",
-    "nome": "Quiche Lorraine",
-    "descricao": "Torta salgada de bacon e creme",
-    "tempo": "1h 10min",
-    "dificuldade": "Fácil",
-    "imagem": "/img/quiche-lorraine.png",
+    "categoria": "Prato Principal",
+    "nome": "Confit de Canard",
+    "descricao": "Pato cozido lentamente na própria gordura",
+    "tempo": "2h 30min",
+    "dificuldade": "Médio",
+    "imagem": "/img/confit-de-canard.png",
     "ingredientes": [
-      "1 massa de torta pronta ou caseira",
-      "150g de bacon picado",
-      "3 ovos",
-      "200ml de creme de leite",
-      "100ml de leite",
-      "100g de queijo ralado",
-      "Sal, noz-moscada e pimenta a gosto"
+      "2 coxas de pato",
+      "Sal grosso",
+      "Tomilho",
+      "Alho",
+      "Gordura de pato"
     ],
     "modoPreparo": [
-      "Forre uma forma com a massa e reserve.",
-      "Frite o bacon até dourar e espalhe sobre a massa.",
-      "Misture ovos, creme de leite, leite e temperos.",
-      "Despeje o recheio sobre a massa.",
-      "Cubra com queijo ralado.",
-      "Asse em forno preaquecido a 180°C por 35 a 40 minutos."
+      "Tempere o pato com sal, alho e tomilho.",
+      "Deixe descansar por algumas horas.",
+      "Cozinhe lentamente na gordura de pato.",
+      "Retire e doure no forno antes de servir."
     ]
   },
   {
     "id": 7,
     "categoria": "Prato Principal",
-    "nome": "Coq au Vin",
-    "descricao": "Frango ao vinho tinto",
+    "nome": "Blanquette de Veau",
+    "descricao": "Ensopado cremoso de vitela com legumes",
     "tempo": "2h",
     "dificuldade": "Médio",
-    "imagem": "/img/coq-au-vin.png",
+    "imagem": "/img/blanquette-de-veau.png",
     "ingredientes": [
-      "1kg de coxas e sobrecoxas de frango",
-      "750ml de vinho tinto",
-      "150g de bacon",
-      "200g de cogumelos",
-      "12 cebolinhas pequenas",
-      "2 dentes de alho",
-      "1 cenoura em rodelas",
-      "1 colher de sopa de farinha",
-      "Tomilho, louro, sal e pimenta"
+      "800 g de vitela",
+      "2 cenouras",
+      "1 alho-poró",
+      "Cogumelos",
+      "Creme de leite",
+      "Manteiga",
+      "Farinha",
+      "Louro",
+      "Sal"
     ],
     "modoPreparo": [
-      "Tempere o frango e doure em uma panela.",
-      "Retire e doure o bacon, os cogumelos e as cebolinhas.",
-      "Volte o frango para a panela.",
-      "Polvilhe farinha e misture bem.",
-      "Adicione o vinho, a cenoura, alho e ervas.",
-      "Cozinhe em fogo baixo por cerca de 1h30 até o frango ficar macio.",
-      "Ajuste o sal e sirva quente."
+      "Cozinhe a vitela com os legumes em água temperada.",
+      "Prepare um molho claro com manteiga e farinha.",
+      "Misture o caldo ao molho.",
+      "Adicione creme e cogumelos.",
+      "Sirva com arroz."
     ]
   },
   {
     "id": 8,
     "categoria": "Prato Principal",
-    "nome": "Boeuf Bourguignon",
-    "descricao": "Carne braseada no vinho da Borgonha",
-    "tempo": "3h",
-    "dificuldade": "Médio",
-    "imagem": "/img/boeuf-bourguignon.png",
+    "nome": "Bouillabaisse",
+    "descricao": "Ensopado provençal de peixes e frutos do mar",
+    "tempo": "1h 40min",
+    "dificuldade": "Difícil",
+    "imagem": "/img/bouillabaisse.png",
     "ingredientes": [
-      "1kg de carne bovina em cubos",
-      "150g de bacon",
-      "750ml de vinho tinto",
-      "2 cenouras em rodelas",
-      "12 cebolinhas",
-      "200g de cogumelos",
-      "2 dentes de alho",
-      "2 colheres de sopa de farinha",
-      "Tomilho, louro, sal e pimenta"
+      "Peixes variados",
+      "Mexilhões",
+      "Camarões",
+      "Tomate",
+      "Cebola",
+      "Alho",
+      "Açafrão",
+      "Azeite",
+      "Ervas"
     ],
     "modoPreparo": [
-      "Doure o bacon e reserve.",
-      "Sele a carne na mesma panela.",
-      "Adicione farinha e misture.",
-      "Acrescente vinho, cenouras, alho, cebolinhas e ervas.",
-      "Tampe e cozinhe lentamente por cerca de 2h30.",
-      "Adicione os cogumelos nos minutos finais.",
-      "Sirva bem quente com acompanhamento de sua preferência."
+      "Refogue cebola, alho e tomate.",
+      "Adicione caldo e açafrão.",
+      "Cozinhe os peixes e frutos do mar no caldo.",
+      "Ajuste os temperos.",
+      "Sirva com pão torrado."
     ]
   },
   {
     "id": 9,
+    "categoria": "Prato Principal",
+    "nome": "Poulet Rôti",
+    "descricao": "Frango assado clássico com ervas",
+    "tempo": "1h 30min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/poulet-roti.png",
+    "ingredientes": [
+      "1 frango inteiro",
+      "Manteiga",
+      "Tomilho",
+      "Alho",
+      "Batatas",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Tempere o frango com manteiga e ervas.",
+      "Distribua as batatas ao redor.",
+      "Asse até dourar bem.",
+      "Regue com o próprio caldo durante o preparo."
+    ]
+  },
+  {
+    "id": 10,
+    "categoria": "Prato Principal",
+    "nome": "Gratin Dauphinois",
+    "descricao": "Batatas gratinadas com creme e alho",
+    "tempo": "1h 20min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/gratin-dauphinois.png",
+    "ingredientes": [
+      "6 batatas",
+      "300 ml de creme de leite",
+      "2 dentes de alho",
+      "Manteiga",
+      "Noz-moscada",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Fatie as batatas bem finas.",
+      "Tempere o creme com alho e noz-moscada.",
+      "Monte em camadas em uma travessa.",
+      "Asse até as batatas ficarem macias e douradas."
+    ]
+  },
+  {
+    "id": 11,
+    "categoria": "Prato Principal",
+    "nome": "Sole Meunière",
+    "descricao": "Linguado grelhado com manteiga e limão",
+    "tempo": "35min",
+    "dificuldade": "Médio",
+    "imagem": "/img/sole-meuniere.png",
+    "ingredientes": [
+      "2 filés de linguado",
+      "Farinha",
+      "Manteiga",
+      "Limão",
+      "Salsinha",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Tempere o peixe e passe levemente na farinha.",
+      "Doure na manteiga.",
+      "Finalize com limão e salsinha.",
+      "Sirva na hora."
+    ]
+  },
+  {
+    "id": 12,
+    "categoria": "Prato Principal",
+    "nome": "Croque Monsieur",
+    "descricao": "Sanduíche quente com queijo e presunto",
+    "tempo": "25min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/croque-monsieur.png",
+    "ingredientes": [
+      "Pão de forma",
+      "Presunto",
+      "Queijo gruyère",
+      "Manteiga",
+      "Molho béchamel"
+    ],
+    "modoPreparo": [
+      "Monte o sanduíche com presunto e queijo.",
+      "Cubra com molho béchamel e mais queijo.",
+      "Leve ao forno até gratinar."
+    ]
+  },
+  {
+    "id": 13,
+    "categoria": "Prato Principal",
+    "nome": "Croque Madame",
+    "descricao": "Versão do croque monsieur com ovo frito",
+    "tempo": "30min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/croque-madame.png",
+    "ingredientes": [
+      "Pão de forma",
+      "Presunto",
+      "Queijo gruyère",
+      "Molho béchamel",
+      "1 ovo"
+    ],
+    "modoPreparo": [
+      "Prepare o croque monsieur.",
+      "Frite um ovo separadamente.",
+      "Coloque o ovo por cima do sanduíche pronto."
+    ]
+  },
+  {
+    "id": 14,
+    "categoria": "Prato Principal",
+    "nome": "Magret de Canard",
+    "descricao": "Peito de pato grelhado com pele crocante",
+    "tempo": "45min",
+    "dificuldade": "Médio",
+    "imagem": "/img/magret-de-canard.png",
+    "ingredientes": [
+      "2 peitos de pato",
+      "Sal",
+      "Pimenta",
+      "Ervas"
+    ],
+    "modoPreparo": [
+      "Faça cortes leves na pele do pato.",
+      "Tempere com sal e pimenta.",
+      "Grelhe primeiro do lado da pele.",
+      "Finalize no forno se necessário."
+    ]
+  },
+  {
+    "id": 15,
+    "categoria": "Prato Principal",
+    "nome": "Navarin d'Agneau",
+    "descricao": "Ensopado de cordeiro com legumes",
+    "tempo": "2h 10min",
+    "dificuldade": "Médio",
+    "imagem": "/img/navarin-d-agneau.png",
+    "ingredientes": [
+      "800 g de cordeiro",
+      "Batatas",
+      "Cenouras",
+      "Ervilhas",
+      "Cebola",
+      "Caldo",
+      "Tomilho"
+    ],
+    "modoPreparo": [
+      "Doure o cordeiro.",
+      "Adicione cebola e caldo.",
+      "Cozinhe até amaciar.",
+      "Acrescente os legumes e finalize."
+    ]
+  },
+  {
+    "id": 16,
+    "categoria": "Prato Principal",
+    "nome": "Choucroute Garnie",
+    "descricao": "Chucrute com linguiças e carnes",
+    "tempo": "2h",
+    "dificuldade": "Médio",
+    "imagem": "/img/choucroute-garnie.png",
+    "ingredientes": [
+      "Chucrute",
+      "Linguiças",
+      "Carne suína",
+      "Batatas",
+      "Louro",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Cozinhe o chucrute com temperos.",
+      "Adicione as carnes e linguiças.",
+      "Sirva com batatas cozidas."
+    ]
+  },
+  {
+    "id": 17,
+    "categoria": "Prato Principal",
+    "nome": "Tarte Flambée",
+    "descricao": "Massa fina com creme, cebola e bacon",
+    "tempo": "35min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/tarte-flambee.png",
+    "ingredientes": [
+      "Massa fina",
+      "Creme fresco",
+      "Cebola",
+      "Bacon",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Espalhe o creme sobre a massa.",
+      "Distribua cebola e bacon.",
+      "Asse até dourar e ficar crocante."
+    ]
+  },
+  {
+    "id": 18,
+    "categoria": "Prato Principal",
+    "nome": "Quenelles de Brochet",
+    "descricao": "Bolinhos de peixe com molho cremoso",
+    "tempo": "1h 20min",
+    "dificuldade": "Difícil",
+    "imagem": "/img/quenelles-de-brochet.png",
+    "ingredientes": [
+      "Peixe branco",
+      "Ovos",
+      "Farinha",
+      "Manteiga",
+      "Creme de leite",
+      "Sal"
+    ],
+    "modoPreparo": [
+      "Prepare uma massa leve com peixe e ovos.",
+      "Modele os quenelles.",
+      "Cozinhe rapidamente em água quente.",
+      "Finalize com molho cremoso."
+    ]
+  },
+  {
+    "id": 19,
+    "categoria": "Prato Principal",
+    "nome": "Hachis Parmentier",
+    "descricao": "Carne desfiada coberta com purê gratinado",
+    "tempo": "1h 10min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/hachis-parmentier.png",
+    "ingredientes": [
+      "Carne desfiada",
+      "Batatas",
+      "Manteiga",
+      "Leite",
+      "Queijo",
+      "Sal"
+    ],
+    "modoPreparo": [
+      "Prepare o purê de batatas.",
+      "Coloque a carne em uma travessa.",
+      "Cubra com o purê.",
+      "Gratine até dourar."
+    ]
+  },
+  {
+    "id": 20,
+    "categoria": "Prato Principal",
+    "nome": "Poulet à la Moutarde",
+    "descricao": "Frango ao molho de mostarda cremosa",
+    "tempo": "55min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/poulet-a-la-moutarde.png",
+    "ingredientes": [
+      "Frango",
+      "Mostarda Dijon",
+      "Creme de leite",
+      "Alho",
+      "Manteiga",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Doure o frango.",
+      "Prepare o molho com mostarda e creme.",
+      "Cozinhe o frango no molho até ficar macio."
+    ]
+  },
+  {
+    "id": 21,
+    "categoria": "Entradas",
+    "nome": "Soupe à l'Oignon",
+    "descricao": "Sopa de cebola gratinada com queijo",
+    "tempo": "1h",
+    "dificuldade": "Fácil",
+    "imagem": "/img/soupe.png",
+    "ingredientes": [
+      "4 cebolas",
+      "Manteiga",
+      "Farinha",
+      "Caldo de carne",
+      "Pão",
+      "Queijo gruyère",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Caramelize as cebolas na manteiga.",
+      "Adicione farinha e caldo.",
+      "Cozinhe até encorpar.",
+      "Coloque pão e queijo por cima.",
+      "Leve ao forno para gratinar."
+    ]
+  },
+  {
+    "id": 22,
+    "categoria": "Entradas",
+    "nome": "Escargots à la Bourguignonne",
+    "descricao": "Caracóis assados com manteiga de alho e salsa",
+    "tempo": "30min",
+    "dificuldade": "Médio",
+    "imagem": "/img/escargots.png",
+    "ingredientes": [
+      "12 escargots",
+      "100 g de manteiga",
+      "2 dentes de alho",
+      "Salsa",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Misture manteiga, alho e salsa.",
+      "Recheie os escargots com a manteiga temperada.",
+      "Leve ao forno até aquecer bem."
+    ]
+  },
+  {
+    "id": 23,
+    "categoria": "Entradas",
+    "nome": "Quiche Lorraine",
+    "descricao": "Torta salgada com bacon, ovos e creme",
+    "tempo": "1h 10min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/quiche-lorraine.png",
+    "ingredientes": [
+      "Massa de torta",
+      "Bacon",
+      "3 ovos",
+      "Creme de leite",
+      "Leite",
+      "Queijo",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Forre a forma com a massa.",
+      "Doure o bacon.",
+      "Misture ovos, creme, leite e temperos.",
+      "Asse até firmar e dourar."
+    ]
+  },
+  {
+    "id": 24,
+    "categoria": "Entradas",
+    "nome": "Salade Niçoise",
+    "descricao": "Salada francesa com atum, ovos e legumes",
+    "tempo": "30min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/salade-nicoise.png",
+    "ingredientes": [
+      "Atum",
+      "Ovos cozidos",
+      "Tomate",
+      "Azeitonas",
+      "Vagem",
+      "Alface",
+      "Azeite",
+      "Sal"
+    ],
+    "modoPreparo": [
+      "Prepare os legumes e ovos.",
+      "Monte tudo no prato.",
+      "Tempere com azeite e sal."
+    ]
+  },
+  {
+    "id": 25,
+    "categoria": "Entradas",
+    "nome": "Pâté de Campagne",
+    "descricao": "Patê rústico de carne e ervas",
+    "tempo": "1h 30min",
+    "dificuldade": "Médio",
+    "imagem": "/img/pate-de-campagne.png",
+    "ingredientes": [
+      "Carne suína moída",
+      "Fígado",
+      "Alho",
+      "Cebola",
+      "Ervas",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Misture todos os ingredientes.",
+      "Coloque em uma forma.",
+      "Asse até firmar.",
+      "Sirva frio em fatias."
+    ]
+  },
+  {
+    "id": 26,
+    "categoria": "Entradas",
+    "nome": "Terrine",
+    "descricao": "Preparação fria moldada com carnes e temperos",
+    "tempo": "2h",
+    "dificuldade": "Médio",
+    "imagem": "/img/terrine.png",
+    "ingredientes": [
+      "Carne moída",
+      "Ervas",
+      "Pimenta",
+      "Sal",
+      "Ovos"
+    ],
+    "modoPreparo": [
+      "Misture os ingredientes.",
+      "Distribua em uma forma.",
+      "Asse em banho-maria.",
+      "Deixe esfriar antes de servir."
+    ]
+  },
+  {
+    "id": 27,
+    "categoria": "Entradas",
+    "nome": "Soufflé de Queijo",
+    "descricao": "Suflê leve e aerado de queijo",
+    "tempo": "45min",
+    "dificuldade": "Médio",
+    "imagem": "/img/souffle-de-queijo.png",
+    "ingredientes": [
+      "Manteiga",
+      "Farinha",
+      "Leite",
+      "Queijo",
+      "Ovos",
+      "Sal"
+    ],
+    "modoPreparo": [
+      "Faça uma base cremosa com manteiga, farinha e leite.",
+      "Adicione queijo e gemas.",
+      "Incorpore claras em neve.",
+      "Asse sem abrir o forno."
+    ]
+  },
+  {
+    "id": 28,
+    "categoria": "Entradas",
+    "nome": "Gougères",
+    "descricao": "Pequenos pães de queijo franceses",
+    "tempo": "35min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/gougeres.png",
+    "ingredientes": [
+      "Água",
+      "Manteiga",
+      "Farinha",
+      "Ovos",
+      "Queijo ralado"
+    ],
+    "modoPreparo": [
+      "Prepare uma massa choux.",
+      "Misture o queijo.",
+      "Modele pequenas porções.",
+      "Asse até crescer e dourar."
+    ]
+  },
+  {
+    "id": 29,
+    "categoria": "Entradas",
+    "nome": "Rillettes",
+    "descricao": "Pasta cremosa de carne desfiada",
+    "tempo": "2h 30min",
+    "dificuldade": "Médio",
+    "imagem": "/img/rillettes.png",
+    "ingredientes": [
+      "Carne suína",
+      "Gordura",
+      "Alho",
+      "Louro",
+      "Pimenta",
+      "Sal"
+    ],
+    "modoPreparo": [
+      "Cozinhe lentamente a carne até desmanchar.",
+      "Desfie e misture à gordura do cozimento.",
+      "Tempere e deixe esfriar.",
+      "Sirva com pão."
+    ]
+  },
+  {
+    "id": 30,
+    "categoria": "Entradas",
+    "nome": "Vol-au-Vent",
+    "descricao": "Massa folhada recheada com creme salgado",
+    "tempo": "50min",
+    "dificuldade": "Médio",
+    "imagem": "/img/vol-au-vent.png",
+    "ingredientes": [
+      "Massa folhada",
+      "Frango ou cogumelos",
+      "Creme de leite",
+      "Manteiga",
+      "Sal",
+      "Pimenta"
+    ],
+    "modoPreparo": [
+      "Asse a massa folhada em formato de cestinha.",
+      "Prepare um recheio cremoso.",
+      "Preencha as massas e sirva."
+    ]
+  },
+  {
+    "id": 31,
+    "categoria": "Sobremesas",
+    "nome": "Crème Brûlée",
+    "descricao": "Creme de baunilha com crosta caramelizada",
+    "tempo": "45min + geladeira",
+    "dificuldade": "Fácil",
+    "imagem": "/img/creme.jpg",
+    "ingredientes": [
+      "500 ml de creme de leite",
+      "5 gemas",
+      "80 g de açúcar",
+      "Baunilha",
+      "Açúcar para caramelizar"
+    ],
+    "modoPreparo": [
+      "Aqueça o creme com baunilha.",
+      "Misture com gemas e açúcar.",
+      "Asse em banho-maria.",
+      "Leve à geladeira.",
+      "Caramelize o topo com açúcar."
+    ]
+  },
+  {
+    "id": 32,
+    "categoria": "Sobremesas",
+    "nome": "Éclair de Chocolate",
+    "descricao": "Massa choux recheada com creme e cobertura de chocolate",
+    "tempo": "1h 30min",
+    "dificuldade": "Difícil",
+    "imagem": "/img/eclair.png",
+    "ingredientes": [
+      "Água",
+      "Manteiga",
+      "Farinha",
+      "Ovos",
+      "Leite",
+      "Gemas",
+      "Açúcar",
+      "Chocolate"
+    ],
+    "modoPreparo": [
+      "Prepare a massa choux.",
+      "Asse em formato alongado.",
+      "Recheie com creme.",
+      "Cubra com chocolate."
+    ]
+  },
+  {
+    "id": 33,
     "categoria": "Sobremesas",
     "nome": "Tarte Tatin",
     "descricao": "Torta invertida de maçã caramelizada",
@@ -229,44 +773,514 @@
     "dificuldade": "Médio",
     "imagem": "/img/tarte-tatin.png",
     "ingredientes": [
-      "5 maçãs",
-      "100g de açúcar",
-      "80g de manteiga",
-      "1 massa folhada",
-      "Canela a gosto"
+      "Maçãs",
+      "Açúcar",
+      "Manteiga",
+      "Massa folhada"
     ],
     "modoPreparo": [
-      "Descasque e corte as maçãs ao meio.",
-      "Prepare um caramelo com açúcar e manteiga em uma frigideira ou forma.",
-      "Disponha as maçãs sobre o caramelo.",
-      "Cubra com a massa folhada, dobrando as bordas.",
-      "Asse em forno preaquecido a 180°C por 30 a 35 minutos.",
-      "Desenforme ainda morna com cuidado."
+      "Caramelize o açúcar com manteiga.",
+      "Distribua as maçãs.",
+      "Cubra com massa.",
+      "Asse e desenforme morna."
     ]
   },
   {
-    "id": 10,
+    "id": 34,
     "categoria": "Sobremesas",
     "nome": "Macarons",
-    "descricao": "Biscoitinhos de amêndoa coloridos",
+    "descricao": "Biscoitos delicados de amêndoa com recheio",
     "tempo": "1h 30min",
     "dificuldade": "Difícil",
     "imagem": "/img/macarons.png",
     "ingredientes": [
-      "100g de farinha de amêndoas",
-      "100g de açúcar de confeiteiro",
-      "100g de açúcar refinado",
-      "2 claras de ovo",
-      "Corante alimentício",
-      "Recheio de ganache ou buttercream"
+      "Farinha de amêndoas",
+      "Açúcar de confeiteiro",
+      "Açúcar refinado",
+      "Claras",
+      "Corante",
+      "Recheio"
     ],
     "modoPreparo": [
-      "Peneire a farinha de amêndoas com o açúcar de confeiteiro.",
-      "Bata as claras e adicione o açúcar refinado aos poucos até formar merengue.",
-      "Acrescente o corante e incorpore os secos delicadamente.",
-      "Modele discos em assadeira e deixe descansar até criar película.",
-      "Asse em forno baixo por cerca de 15 minutos.",
-      "Recheie após esfriar completamente."
+      "Prepare um merengue.",
+      "Misture os ingredientes secos.",
+      "Modele os discos.",
+      "Asse e recheie."
+    ]
+  },
+  {
+    "id": 35,
+    "categoria": "Sobremesas",
+    "nome": "Profiteroles",
+    "descricao": "Carolinas recheadas com sorvete e calda",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "imagem": "/img/profiteroles.png",
+    "ingredientes": [
+      "Massa choux",
+      "Sorvete",
+      "Chocolate",
+      "Creme de leite"
+    ],
+    "modoPreparo": [
+      "Asse pequenas carolinas.",
+      "Recheie com sorvete.",
+      "Cubra com calda de chocolate."
+    ]
+  },
+  {
+    "id": 36,
+    "categoria": "Sobremesas",
+    "nome": "Madeleines",
+    "descricao": "Bolinhos amanteigados em formato de concha",
+    "tempo": "35min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/madeleines.png",
+    "ingredientes": [
+      "Farinha",
+      "Ovos",
+      "Açúcar",
+      "Manteiga",
+      "Fermento",
+      "Baunilha"
+    ],
+    "modoPreparo": [
+      "Prepare a massa leve.",
+      "Distribua em formas próprias.",
+      "Asse até dourar levemente."
+    ]
+  },
+  {
+    "id": 37,
+    "categoria": "Sobremesas",
+    "nome": "Mille-feuille",
+    "descricao": "Camadas crocantes de massa folhada e creme",
+    "tempo": "1h 20min",
+    "dificuldade": "Médio",
+    "imagem": "/img/mille-feuille.png",
+    "ingredientes": [
+      "Massa folhada",
+      "Leite",
+      "Gemas",
+      "Açúcar",
+      "Amido",
+      "Açúcar de confeiteiro"
+    ],
+    "modoPreparo": [
+      "Asse a massa folhada.",
+      "Prepare o creme confeiteiro.",
+      "Monte em camadas.",
+      "Finalize com açúcar."
+    ]
+  },
+  {
+    "id": 38,
+    "categoria": "Sobremesas",
+    "nome": "Paris-Brest",
+    "descricao": "Sobremesa em formato de coroa recheada com creme praliné",
+    "tempo": "1h 40min",
+    "dificuldade": "Difícil",
+    "imagem": "/img/paris-brest.png",
+    "ingredientes": [
+      "Massa choux",
+      "Manteiga",
+      "Praliné",
+      "Açúcar",
+      "Amêndoas"
+    ],
+    "modoPreparo": [
+      "Modele a massa em formato de coroa.",
+      "Asse até dourar.",
+      "Recheie com creme praliné."
+    ]
+  },
+  {
+    "id": 39,
+    "categoria": "Sobremesas",
+    "nome": "Clafoutis",
+    "descricao": "Torta cremosa assada com frutas",
+    "tempo": "50min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/clafoutis.png",
+    "ingredientes": [
+      "Cerejas ou outra fruta",
+      "Ovos",
+      "Leite",
+      "Farinha",
+      "Açúcar",
+      "Baunilha"
+    ],
+    "modoPreparo": [
+      "Distribua as frutas em uma forma.",
+      "Cubra com a massa líquida.",
+      "Asse até firmar."
+    ]
+  },
+  {
+    "id": 40,
+    "categoria": "Sobremesas",
+    "nome": "Île Flottante",
+    "descricao": "Merengue sobre creme inglês",
+    "tempo": "45min",
+    "dificuldade": "Médio",
+    "imagem": "/img/ile-flottante.png",
+    "ingredientes": [
+      "Claras",
+      "Açúcar",
+      "Leite",
+      "Gemas",
+      "Baunilha"
+    ],
+    "modoPreparo": [
+      "Prepare o merengue.",
+      "Cozinhe delicadamente no leite.",
+      "Sirva sobre creme inglês."
+    ]
+  },
+  {
+    "id": 41,
+    "categoria": "Sobremesas",
+    "nome": "Opera",
+    "descricao": "Bolo em camadas com café e chocolate",
+    "tempo": "2h",
+    "dificuldade": "Difícil",
+    "imagem": "/img/opera.png",
+    "ingredientes": [
+      "Farinha de amêndoas",
+      "Ovos",
+      "Açúcar",
+      "Café",
+      "Chocolate",
+      "Manteiga"
+    ],
+    "modoPreparo": [
+      "Asse as camadas finas de massa.",
+      "Prepare creme de café e ganache.",
+      "Monte em camadas e gele."
+    ]
+  },
+  {
+    "id": 42,
+    "categoria": "Sobremesas",
+    "nome": "Financiers",
+    "descricao": "Pequenos bolinhos de amêndoa e manteiga noisette",
+    "tempo": "35min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/financiers.png",
+    "ingredientes": [
+      "Farinha de amêndoas",
+      "Claras",
+      "Açúcar",
+      "Manteiga",
+      "Farinha de trigo"
+    ],
+    "modoPreparo": [
+      "Prepare a manteiga noisette.",
+      "Misture os ingredientes.",
+      "Asse em pequenas formas."
+    ]
+  },
+  {
+    "id": 43,
+    "categoria": "Sobremesas",
+    "nome": "Canelés",
+    "descricao": "Doce bordalês com exterior caramelizado",
+    "tempo": "1h 10min",
+    "dificuldade": "Médio",
+    "imagem": "/img/caneles.png",
+    "ingredientes": [
+      "Leite",
+      "Farinha",
+      "Ovos",
+      "Açúcar",
+      "Baunilha",
+      "Rum"
+    ],
+    "modoPreparo": [
+      "Prepare uma massa líquida e aromatizada.",
+      "Descanse a massa.",
+      "Asse em formas apropriadas até caramelizar."
+    ]
+  },
+  {
+    "id": 44,
+    "categoria": "Sobremesas",
+    "nome": "Crêpes Suzette",
+    "descricao": "Panquecas finas com molho de laranja",
+    "tempo": "40min",
+    "dificuldade": "Médio",
+    "imagem": "/img/crepes-suzette.png",
+    "ingredientes": [
+      "Farinha",
+      "Leite",
+      "Ovos",
+      "Manteiga",
+      "Laranja",
+      "Açúcar"
+    ],
+    "modoPreparo": [
+      "Prepare as crêpes finas.",
+      "Faça o molho de laranja com manteiga e açúcar.",
+      "Aqueça as crêpes no molho."
+    ]
+  },
+  {
+    "id": 45,
+    "categoria": "Sobremesas",
+    "nome": "Baba au Rhum",
+    "descricao": "Bolo leve embebido em calda de rum",
+    "tempo": "1h 30min",
+    "dificuldade": "Médio",
+    "imagem": "/img/baba-au-rhum.png",
+    "ingredientes": [
+      "Farinha",
+      "Ovos",
+      "Fermento",
+      "Açúcar",
+      "Rum",
+      "Água"
+    ],
+    "modoPreparo": [
+      "Prepare e asse a massa.",
+      "Faça a calda de rum.",
+      "Embeba o bolo e sirva."
+    ]
+  },
+  {
+    "id": 46,
+    "categoria": "Sobremesas",
+    "nome": "Mousse au Chocolat",
+    "descricao": "Mousse francesa de chocolate aerada",
+    "tempo": "30min + geladeira",
+    "dificuldade": "Fácil",
+    "imagem": "/img/mousse-au-chocolat.png",
+    "ingredientes": [
+      "Chocolate amargo",
+      "Ovos",
+      "Açúcar",
+      "Creme de leite"
+    ],
+    "modoPreparo": [
+      "Derreta o chocolate.",
+      "Misture com gemas.",
+      "Incorpore claras em neve.",
+      "Leve à geladeira."
+    ]
+  },
+  {
+    "id": 47,
+    "categoria": "Sobremesas",
+    "nome": "Palmiers",
+    "descricao": "Biscoitos folhados crocantes com açúcar",
+    "tempo": "35min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/palmiers.png",
+    "ingredientes": [
+      "Massa folhada",
+      "Açúcar"
+    ],
+    "modoPreparo": [
+      "Abra a massa e cubra com açúcar.",
+      "Enrole dos dois lados até o centro.",
+      "Fatie e asse até caramelizar."
+    ]
+  },
+  {
+    "id": 48,
+    "categoria": "Sobremesas",
+    "nome": "Pain Perdu",
+    "descricao": "Torradas doces francesas com toque amanteigado",
+    "tempo": "20min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/pain-perdu.png",
+    "ingredientes": [
+      "Pão amanhecido",
+      "Leite",
+      "Ovos",
+      "Açúcar",
+      "Manteiga",
+      "Canela"
+    ],
+    "modoPreparo": [
+      "Misture leite, ovos e açúcar.",
+      "Passe o pão na mistura.",
+      "Doure na manteiga dos dois lados."
+    ]
+  },
+  {
+    "id": 49,
+    "categoria": "Sobremesas",
+    "nome": "Galette des Rois",
+    "descricao": "Torta folhada recheada com creme de amêndoas",
+    "tempo": "1h",
+    "dificuldade": "Médio",
+    "imagem": "/img/galette-des-rois.png",
+    "ingredientes": [
+      "Massa folhada",
+      "Manteiga",
+      "Açúcar",
+      "Farinha de amêndoas",
+      "Ovos"
+    ],
+    "modoPreparo": [
+      "Prepare o recheio de amêndoas.",
+      "Monte entre duas camadas de massa.",
+      "Asse até dourar."
+    ]
+  },
+  {
+    "id": 50,
+    "categoria": "Bebidas",
+    "nome": "Champagne",
+    "descricao": "Vinho espumante francês sofisticado",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/champagne.png",
+    "ingredientes": [
+      "Uvas fermentadas"
+    ],
+    "modoPreparo": [
+      "Sirva bem gelado em taças."
+    ]
+  },
+  {
+    "id": 51,
+    "categoria": "Bebidas",
+    "nome": "Bordeaux",
+    "descricao": "Vinho tinto encorpado da região de Bordeaux",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/bordeaux.png",
+    "ingredientes": [
+      "Uvas"
+    ],
+    "modoPreparo": [
+      "Sirva em temperatura ambiente."
+    ]
+  },
+  {
+    "id": 52,
+    "categoria": "Bebidas",
+    "nome": "Bourgogne",
+    "descricao": "Vinho elegante da Borgonha",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/bourgogne.png",
+    "ingredientes": [
+      "Uvas"
+    ],
+    "modoPreparo": [
+      "Sirva em taças apropriadas."
+    ]
+  },
+  {
+    "id": 53,
+    "categoria": "Bebidas",
+    "nome": "Chablis",
+    "descricao": "Vinho branco seco e refrescante",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/chablis.png",
+    "ingredientes": [
+      "Uvas"
+    ],
+    "modoPreparo": [
+      "Sirva gelado."
+    ]
+  },
+  {
+    "id": 54,
+    "categoria": "Bebidas",
+    "nome": "Cognac",
+    "descricao": "Destilado de uva envelhecido",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/cognac.png",
+    "ingredientes": [
+      "Uvas fermentadas"
+    ],
+    "modoPreparo": [
+      "Sirva em pequenas doses."
+    ]
+  },
+  {
+    "id": 55,
+    "categoria": "Bebidas",
+    "nome": "Armagnac",
+    "descricao": "Destilado francês tradicional e aromático",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/armagnac.png",
+    "ingredientes": [
+      "Uvas"
+    ],
+    "modoPreparo": [
+      "Sirva em temperatura ambiente."
+    ]
+  },
+  {
+    "id": 56,
+    "categoria": "Bebidas",
+    "nome": "Kir Royale",
+    "descricao": "Drink francês com champagne e cassis",
+    "tempo": "5min",
+    "dificuldade": "Fácil",
+    "imagem": "/img/kir-royale.png",
+    "ingredientes": [
+      "Champagne",
+      "Licor de cassis"
+    ],
+    "modoPreparo": [
+      "Despeje o licor na taça.",
+      "Complete com champagne gelado."
+    ]
+  },
+  {
+    "id": 57,
+    "categoria": "Bebidas",
+    "nome": "Pastis",
+    "descricao": "Bebida anisada muito popular no sul da França",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/pastis.png",
+    "ingredientes": [
+      "Destilado de anis",
+      "Água"
+    ],
+    "modoPreparo": [
+      "Misture com água fria antes de servir."
+    ]
+  },
+  {
+    "id": 58,
+    "categoria": "Bebidas",
+    "nome": "Calvados",
+    "descricao": "Destilado normando à base de maçã",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/calvados.png",
+    "ingredientes": [
+      "Maçã fermentada"
+    ],
+    "modoPreparo": [
+      "Sirva em dose pequena."
+    ]
+  },
+  {
+    "id": 59,
+    "categoria": "Bebidas",
+    "nome": "Chartreuse",
+    "descricao": "Licor herbal intenso e tradicional",
+    "tempo": "Pronto",
+    "dificuldade": "Fácil",
+    "imagem": "/img/chartreuse.png",
+    "ingredientes": [
+      "Ervas aromáticas",
+      "Álcool",
+      "Açúcar"
+    ],
+    "modoPreparo": [
+      "Sirva puro ou em coquetéis."
     ]
   }
 ]
