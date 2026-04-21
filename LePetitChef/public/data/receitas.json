@@ -62,7 +62,7 @@
     "descricao": "Carne bovina braseada no vinho tinto",
     "tempo": "3h",
     "dificuldade": "Médio",
-    "imagem": "/img/boeuf-bourguignon.png",
+    "imagem": "/img/boeuf-bourguignon.jpg",
     "ingredientes": [
       "1 kg de carne bovina em cubos",
       "150 g de bacon",
@@ -90,7 +90,7 @@
     "descricao": "Ensopado robusto de feijão branco com carnes",
     "tempo": "3h 30min",
     "dificuldade": "Difícil",
-    "imagem": "/img/cassoulet.png",
+    "imagem": "/img/cassoulet.jpg",
     "ingredientes": [
       "500 g de feijão branco",
       "200 g de linguiça",
@@ -118,7 +118,7 @@
     "descricao": "Bife grelhado servido com batatas fritas",
     "tempo": "40min",
     "dificuldade": "Fácil",
-    "imagem": "/img/steak-frites.png",
+    "imagem": "/img/steak-frites.jpg",
     "ingredientes": [
       "2 bifes",
       "4 batatas",
@@ -142,7 +142,7 @@
     "descricao": "Pato cozido lentamente na própria gordura",
     "tempo": "2h 30min",
     "dificuldade": "Médio",
-    "imagem": "/img/confit-de-canard.png",
+    "imagem": "/img/confit-de-canard.jpg",
     "ingredientes": [
       "2 coxas de pato",
       "Sal grosso",
@@ -164,7 +164,7 @@
     "descricao": "Ensopado cremoso de vitela com legumes",
     "tempo": "2h",
     "dificuldade": "Médio",
-    "imagem": "/img/blanquette-de-veau.png",
+    "imagem": "/img/blanquette-de-veau.jpg",
     "ingredientes": [
       "800 g de vitela",
       "2 cenouras",
@@ -191,7 +191,7 @@
     "descricao": "Ensopado provençal de peixes e frutos do mar",
     "tempo": "1h 40min",
     "dificuldade": "Difícil",
-    "imagem": "/img/bouillabaisse.png",
+    "imagem": "/img/bouillabaisse.jpg",
     "ingredientes": [
       "Peixes variados",
       "Mexilhões",
@@ -218,7 +218,7 @@
     "descricao": "Frango assado clássico com ervas",
     "tempo": "1h 30min",
     "dificuldade": "Fácil",
-    "imagem": "/img/poulet-roti.png",
+    "imagem": "/img/poulet-roti.jpg",
     "ingredientes": [
       "1 frango inteiro",
       "Manteiga",
@@ -242,7 +242,7 @@
     "descricao": "Batatas gratinadas com creme e alho",
     "tempo": "1h 20min",
     "dificuldade": "Fácil",
-    "imagem": "/img/gratin-dauphinois.png",
+    "imagem": "/img/gratin-dauphinois.jpg",
     "ingredientes": [
       "6 batatas",
       "300 ml de creme de leite",
@@ -266,7 +266,7 @@
     "descricao": "Linguado grelhado com manteiga e limão",
     "tempo": "35min",
     "dificuldade": "Médio",
-    "imagem": "/img/sole-meuniere.png",
+    "imagem": "/img/sole-meuniere.jpg",
     "ingredientes": [
       "2 filés de linguado",
       "Farinha",
@@ -290,7 +290,7 @@
     "descricao": "Sanduíche quente com queijo e presunto",
     "tempo": "25min",
     "dificuldade": "Fácil",
-    "imagem": "/img/croque-monsieur.png",
+    "imagem": "/img/croque-monsieur.jpeg",
     "ingredientes": [
       "Pão de forma",
       "Presunto",
@@ -311,7 +311,7 @@
     "descricao": "Versão do croque monsieur com ovo frito",
     "tempo": "30min",
     "dificuldade": "Fácil",
-    "imagem": "/img/croque-madame.png",
+    "imagem": "/img/croque-madame.jpg",
     "ingredientes": [
       "Pão de forma",
       "Presunto",
@@ -332,7 +332,7 @@
     "descricao": "Peito de pato grelhado com pele crocante",
     "tempo": "45min",
     "dificuldade": "Médio",
-    "imagem": "/img/magret-de-canard.png",
+    "imagem": "/img/magret-de-canard.jpeg",
     "ingredientes": ["2 peitos de pato", "Sal", "Pimenta", "Ervas"],
     "modoPreparo": [
       "Faça cortes leves na pele do pato.",
@@ -348,7 +348,7 @@
     "descricao": "Ensopado de cordeiro com legumes",
     "tempo": "2h 10min",
     "dificuldade": "Médio",
-    "imagem": "/img/navarin-d-agneau.png",
+    "imagem": "/img/navarin-d-agneau.jpg",
     "ingredientes": [
       "800 g de cordeiro",
       "Batatas",
@@ -372,7 +372,7 @@
     "descricao": "Chucrute com linguiças e carnes",
     "tempo": "2h",
     "dificuldade": "Médio",
-    "imagem": "/img/choucroute-garnie.png",
+    "imagem": "/img/choucroute-garnie.jpg",
     "ingredientes": [
       "Chucrute",
       "Linguiças",
@@ -394,7 +394,7 @@
     "descricao": "Massa fina com creme, cebola e bacon",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/tarte-flambee.png",
+    "imagem": "/img/tarte-flambee.jpg",
     "ingredientes": [
       "Massa fina",
       "Creme fresco",
@@ -416,7 +416,7 @@
     "descricao": "Bolinhos de peixe com molho cremoso",
     "tempo": "1h 20min",
     "dificuldade": "Difícil",
-    "imagem": "/img/quenelles-de-brochet.png",
+    "imagem": "/img/quenelles-de-brochet.jpg",
     "ingredientes": [
       "Peixe branco",
       "Ovos",
@@ -439,7 +439,7 @@
     "descricao": "Carne desfiada coberta com purê gratinado",
     "tempo": "1h 10min",
     "dificuldade": "Fácil",
-    "imagem": "/img/hachis-parmentier.png",
+    "imagem": "/img/hachis-parmentie.jpg",
     "ingredientes": [
       "Carne desfiada",
       "Batatas",
@@ -462,7 +462,7 @@
     "descricao": "Frango ao molho de mostarda cremosa",
     "tempo": "55min",
     "dificuldade": "Fácil",
-    "imagem": "/img/poulet-a-la-moutarde.png",
+    "imagem": "/img/poulet-a-la-moutarde.jpg",
     "ingredientes": [
       "Frango",
       "Mostarda Dijon",
@@ -511,7 +511,7 @@
     "descricao": "Caracóis assados com manteiga de alho e salsa",
     "tempo": "30min",
     "dificuldade": "Médio",
-    "imagem": "/img/escargots.png",
+    "imagem": "/img/escargots.jpg",
     "ingredientes": [
       "12 escargots",
       "100 g de manteiga",
@@ -533,7 +533,7 @@
     "descricao": "Torta salgada com bacon, ovos e creme",
     "tempo": "1h 10min",
     "dificuldade": "Fácil",
-    "imagem": "/img/quiche-lorraine.png",
+    "imagem": "/img/quiche-lorraine.jpg",
     "ingredientes": [
       "Massa de torta",
       "Bacon",
@@ -558,7 +558,7 @@
     "descricao": "Salada francesa com atum, ovos e legumes",
     "tempo": "30min",
     "dificuldade": "Fácil",
-    "imagem": "/img/salade-nicoise.png",
+    "imagem": "/img/salade-nicoise.jpg",
     "ingredientes": [
       "Atum",
       "Ovos cozidos",
@@ -582,7 +582,7 @@
     "descricao": "Patê rústico de carne e ervas",
     "tempo": "1h 30min",
     "dificuldade": "Médio",
-    "imagem": "/img/pate-de-campagne.png",
+    "imagem": "/img/pate-de-campagne.jpg",
     "ingredientes": [
       "Carne suína moída",
       "Fígado",
@@ -606,7 +606,7 @@
     "descricao": "Preparação fria moldada com carnes e temperos",
     "tempo": "2h",
     "dificuldade": "Médio",
-    "imagem": "/img/terrine.png",
+    "imagem": "/img/terrine.jpg",
     "ingredientes": ["Carne moída", "Ervas", "Pimenta", "Sal", "Ovos"],
     "modoPreparo": [
       "Misture os ingredientes.",
@@ -622,7 +622,7 @@
     "descricao": "Suflê leve e aerado de queijo",
     "tempo": "45min",
     "dificuldade": "Médio",
-    "imagem": "/img/souffle-de-queijo.png",
+    "imagem": "/img/souffle-de-queijo.jpg",
     "ingredientes": ["Manteiga", "Farinha", "Leite", "Queijo", "Ovos", "Sal"],
     "modoPreparo": [
       "Faça uma base cremosa com manteiga, farinha e leite.",
@@ -638,7 +638,7 @@
     "descricao": "Pequenos pães de queijo franceses",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/gougeres.png",
+    "imagem": "/img/gougeres.jpg",
     "ingredientes": ["Água", "Manteiga", "Farinha", "Ovos", "Queijo ralado"],
     "modoPreparo": [
       "Prepare uma massa choux.",
@@ -654,7 +654,7 @@
     "descricao": "Pasta cremosa de carne desfiada",
     "tempo": "2h 30min",
     "dificuldade": "Médio",
-    "imagem": "/img/rillettes.png",
+    "imagem": "/img/rillettes.jpg",
     "ingredientes": [
       "Carne suína",
       "Gordura",
@@ -677,7 +677,7 @@
     "descricao": "Massa folhada recheada com creme salgado",
     "tempo": "50min",
     "dificuldade": "Médio",
-    "imagem": "/img/vol-au-vent.png",
+    "imagem": "/img/vol-au-vent.jpg",
     "ingredientes": [
       "Massa folhada",
       "Frango ou cogumelos",
@@ -747,7 +747,7 @@
     "descricao": "Torta invertida de maçã caramelizada",
     "tempo": "1h",
     "dificuldade": "Médio",
-    "imagem": "/img/tarte-tatin.png",
+    "imagem": "/img/tarte-tatin.jpg",
     "ingredientes": ["Maçãs", "Açúcar", "Manteiga", "Massa folhada"],
     "modoPreparo": [
       "Caramelize o açúcar com manteiga.",
@@ -763,7 +763,7 @@
     "descricao": "Biscoitos delicados de amêndoa com recheio",
     "tempo": "1h 30min",
     "dificuldade": "Difícil",
-    "imagem": "/img/macarons.png",
+    "imagem": "/img/macarons.jpg",
     "ingredientes": [
       "Farinha de amêndoas",
       "Açúcar de confeiteiro",
@@ -786,7 +786,7 @@
     "descricao": "Carolinas recheadas com sorvete e calda",
     "tempo": "1h",
     "dificuldade": "Médio",
-    "imagem": "/img/profiteroles.png",
+    "imagem": "/img/profiteroles.jpg",
     "ingredientes": ["Massa choux", "Sorvete", "Chocolate", "Creme de leite"],
     "modoPreparo": [
       "Asse pequenas carolinas.",
@@ -801,7 +801,7 @@
     "descricao": "Bolinhos amanteigados em formato de concha",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/madeleines.png",
+    "imagem": "/img/madeleines.jpg",
     "ingredientes": [
       "Farinha",
       "Ovos",
@@ -823,7 +823,7 @@
     "descricao": "Camadas crocantes de massa folhada e creme",
     "tempo": "1h 20min",
     "dificuldade": "Médio",
-    "imagem": "/img/mille-feuille.png",
+    "imagem": "/img/mille-feuille.jpg",
     "ingredientes": [
       "Massa folhada",
       "Leite",
@@ -846,7 +846,7 @@
     "descricao": "Sobremesa em formato de coroa recheada com creme praliné",
     "tempo": "1h 40min",
     "dificuldade": "Difícil",
-    "imagem": "/img/paris-brest.png",
+    "imagem": "/img/paris-brest.jpg",
     "ingredientes": [
       "Massa choux",
       "Manteiga",
@@ -867,7 +867,7 @@
     "descricao": "Torta cremosa assada com frutas",
     "tempo": "50min",
     "dificuldade": "Fácil",
-    "imagem": "/img/clafoutis.png",
+    "imagem": "/img/clafoutis.jpg",
     "ingredientes": [
       "Cerejas ou outra fruta",
       "Ovos",
@@ -889,7 +889,7 @@
     "descricao": "Merengue sobre creme inglês",
     "tempo": "45min",
     "dificuldade": "Médio",
-    "imagem": "/img/ile-flottante.png",
+    "imagem": "/img/ile-flottante.jpg",
     "ingredientes": ["Claras", "Açúcar", "Leite", "Gemas", "Baunilha"],
     "modoPreparo": [
       "Prepare o merengue.",
@@ -904,7 +904,7 @@
     "descricao": "Bolo em camadas com café e chocolate",
     "tempo": "2h",
     "dificuldade": "Difícil",
-    "imagem": "/img/opera.png",
+    "imagem": "/img/opera.jpg",
     "ingredientes": [
       "Farinha de amêndoas",
       "Ovos",
@@ -926,7 +926,7 @@
     "descricao": "Pequenos bolinhos de amêndoa e manteiga noisette",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/financiers.png",
+    "imagem": "/img/financiers.jpeg",
     "ingredientes": [
       "Farinha de amêndoas",
       "Claras",
@@ -947,7 +947,7 @@
     "descricao": "Doce bordalês com exterior caramelizado",
     "tempo": "1h 10min",
     "dificuldade": "Médio",
-    "imagem": "/img/caneles.png",
+    "imagem": "/img/caneles.jpg",
     "ingredientes": ["Leite", "Farinha", "Ovos", "Açúcar", "Baunilha", "Rum"],
     "modoPreparo": [
       "Prepare uma massa líquida e aromatizada.",
@@ -962,7 +962,7 @@
     "descricao": "Panquecas finas com molho de laranja",
     "tempo": "40min",
     "dificuldade": "Médio",
-    "imagem": "/img/crepes-suzette.png",
+    "imagem": "/img/crepes-suzette.jpg",
     "ingredientes": [
       "Farinha",
       "Leite",
@@ -984,7 +984,7 @@
     "descricao": "Bolo leve embebido em calda de rum",
     "tempo": "1h 30min",
     "dificuldade": "Médio",
-    "imagem": "/img/baba-au-rhum.png",
+    "imagem": "/img/baba-au-rhum.jpg",
     "ingredientes": ["Farinha", "Ovos", "Fermento", "Açúcar", "Rum", "Água"],
     "modoPreparo": [
       "Prepare e asse a massa.",
@@ -999,7 +999,7 @@
     "descricao": "Mousse francesa de chocolate aerada",
     "tempo": "30min + geladeira",
     "dificuldade": "Fácil",
-    "imagem": "/img/mousse-au-chocolat.png",
+    "imagem": "/img/mousse-au-chocolat.jpg",
     "ingredientes": ["Chocolate amargo", "Ovos", "Açúcar", "Creme de leite"],
     "modoPreparo": [
       "Derreta o chocolate.",
@@ -1015,7 +1015,7 @@
     "descricao": "Biscoitos folhados crocantes com açúcar",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/palmiers.png",
+    "imagem": "/img/palmiers.jpg",
     "ingredientes": ["Massa folhada", "Açúcar"],
     "modoPreparo": [
       "Abra a massa e cubra com açúcar.",
@@ -1030,7 +1030,7 @@
     "descricao": "Torradas doces francesas com toque amanteigado",
     "tempo": "20min",
     "dificuldade": "Fácil",
-    "imagem": "/img/pain-perdu.png",
+    "imagem": "/img/pain-perdu.jpg",
     "ingredientes": [
       "Pão amanhecido",
       "Leite",
@@ -1074,7 +1074,7 @@
     "tempo": "5min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/kir.png",
+    "imagem": "/img/kir.jpg",
     "ingredientes": ["150ml de vinho branco seco", "20ml de creme de cassis"],
     "modoPreparo": [
       "Coloque o creme de cassis em uma taça.",
@@ -1090,7 +1090,7 @@
     "tempo": "5min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/kir-royal.png",
+    "imagem": "/img/kir-royal.jpg",
     "ingredientes": ["150ml de champagne", "20ml de creme de cassis"],
     "modoPreparo": [
       "Adicione o creme de cassis na taça.",
@@ -1106,7 +1106,7 @@
     "tempo": "10min",
     "dificuldade": "Médio",
     "porcoes": "1 pessoa",
-    "imagem": "/img/french75.png",
+    "imagem": "/img/french75.jpeg",
     "ingredientes": [
       "30ml de gin",
       "15ml de suco de limão",
@@ -1129,7 +1129,7 @@
     "tempo": "5min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/diabolo.png",
+    "imagem": "/img/diabolo.jpg",
     "ingredientes": [
       "200ml de água com gás",
       "20ml de xarope de menta",
@@ -1150,7 +1150,7 @@
     "tempo": "10min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/cafe-au-lait.png",
+    "imagem": "/img/cafe-au-lait.jpg",
     "ingredientes": ["100ml de café forte", "100ml de leite", "Açúcar a gosto"],
     "modoPreparo": [
       "Prepare o café.",
@@ -1167,7 +1167,7 @@
     "tempo": "15min",
     "dificuldade": "Fácil",
     "porcoes": "2 pessoas",
-    "imagem": "/img/chocolat-chaud.png",
+    "imagem": "/img/chocolat-chaud.jpg",
     "ingredientes": [
       "200ml de leite",
       "100g de chocolate meio amargo",
@@ -1189,7 +1189,7 @@
     "tempo": "20min",
     "dificuldade": "Fácil",
     "porcoes": "4 pessoas",
-    "imagem": "/img/vin-chaud.png",
+    "imagem": "/img/vin-chaud.jpg",
     "ingredientes": [
       "750ml de vinho tinto",
       "1 pau de canela",
@@ -1212,7 +1212,7 @@
     "tempo": "5min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/citron-presse.png",
+    "imagem": "/img/citron-presse.jpg",
     "ingredientes": ["1 limão", "200ml de água", "Açúcar a gosto"],
     "modoPreparo": [
       "Esprema o limão em um copo.",
@@ -1228,7 +1228,7 @@
     "tempo": "5min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/sirop.png",
+    "imagem": "/img/sirop.jpg",
     "ingredientes": ["200ml de água", "20ml de xarope de fruta", "Gelo"],
     "modoPreparo": [
       "Coloque gelo em um copo.",
@@ -1245,7 +1245,7 @@
     "tempo": "5min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/panache.png",
+    "imagem": "/img/panache.jpg",
     "ingredientes": ["100ml de cerveja clara", "100ml de limonada", "Gelo"],
     "modoPreparo": [
       "Misture a cerveja com a limonada.",
