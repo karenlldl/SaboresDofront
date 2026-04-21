@@ -38,7 +38,7 @@ const Equipe = () => {
           {equipe.map((membro, index) => (
             <div
               key={index}
-              className="w-[260px] rounded-[1.8rem] bg-[#d4e3ef] px-6 py-8 text-center shadow-md transition hover:-translate-y-1"
+              className="w-65 rounded-[1.8rem] bg-[#d4e3ef] px-6 py-8 text-center shadow-md transition hover:-translate-y-1"
             >
               {/* Avatar */}
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#c8d8e6] text-3xl">
