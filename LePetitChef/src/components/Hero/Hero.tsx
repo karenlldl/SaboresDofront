@@ -120,7 +120,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         <h1
           className="
             absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-            text-white/10 font-bold whitespace-nowrap
+            text-white/20 font-bold whitespace-nowrap
           "
           style={{ fontSize: "clamp(6rem, 18vw, 16rem)" }}
         >
