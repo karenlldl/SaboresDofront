@@ -191,7 +191,7 @@
     "descricao": "Ensopado provençal de peixes e frutos do mar",
     "tempo": "1h 40min",
     "dificuldade": "Difícil",
-    "imagem": "/img/bouillabaisse.jpg",
+    "imagem": "/img/Bouillabaisse.jpg",
     "ingredientes": [
       "Peixes variados",
       "Mexilhões",
@@ -606,7 +606,7 @@
     "descricao": "Preparação fria moldada com carnes e temperos",
     "tempo": "2h",
     "dificuldade": "Médio",
-    "imagem": "/img/terrine.jpg",
+    "imagem": "/img/Terrine.jpg",
     "ingredientes": ["Carne moída", "Ervas", "Pimenta", "Sal", "Ovos"],
     "modoPreparo": [
       "Misture os ingredientes.",
@@ -654,7 +654,7 @@
     "descricao": "Pasta cremosa de carne desfiada",
     "tempo": "2h 30min",
     "dificuldade": "Médio",
-    "imagem": "/img/rillettes.jpg",
+    "imagem": "/img/Rillettes.jpg",
     "ingredientes": [
       "Carne suína",
       "Gordura",
@@ -677,7 +677,7 @@
     "descricao": "Massa folhada recheada com creme salgado",
     "tempo": "50min",
     "dificuldade": "Médio",
-    "imagem": "/img/vol-au-vent.jpg",
+    "imagem": "/img/Vol-au-Vent.jpg",
     "ingredientes": [
       "Massa folhada",
       "Frango ou cogumelos",
@@ -763,7 +763,7 @@
     "descricao": "Biscoitos delicados de amêndoa com recheio",
     "tempo": "1h 30min",
     "dificuldade": "Difícil",
-    "imagem": "/img/macarons.jpg",
+    "imagem": "/img/Macarons.jpg",
     "ingredientes": [
       "Farinha de amêndoas",
       "Açúcar de confeiteiro",
@@ -786,7 +786,7 @@
     "descricao": "Carolinas recheadas com sorvete e calda",
     "tempo": "1h",
     "dificuldade": "Médio",
-    "imagem": "/img/profiteroles.jpg",
+    "imagem": "/img/Profiteroles.jpg",
     "ingredientes": ["Massa choux", "Sorvete", "Chocolate", "Creme de leite"],
     "modoPreparo": [
       "Asse pequenas carolinas.",
@@ -801,7 +801,7 @@
     "descricao": "Bolinhos amanteigados em formato de concha",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/madeleines.jpg",
+    "imagem": "/img/Madeleines.jpg",
     "ingredientes": [
       "Farinha",
       "Ovos",
@@ -823,7 +823,7 @@
     "descricao": "Camadas crocantes de massa folhada e creme",
     "tempo": "1h 20min",
     "dificuldade": "Médio",
-    "imagem": "/img/mille-feuille.jpg",
+    "imagem": "/img/Mille-feuille.jpg",
     "ingredientes": [
       "Massa folhada",
       "Leite",
@@ -846,7 +846,7 @@
     "descricao": "Sobremesa em formato de coroa recheada com creme praliné",
     "tempo": "1h 40min",
     "dificuldade": "Difícil",
-    "imagem": "/img/paris-brest.jpg",
+    "imagem": "/img/Paris-Brest.jpg",
     "ingredientes": [
       "Massa choux",
       "Manteiga",
@@ -867,7 +867,7 @@
     "descricao": "Torta cremosa assada com frutas",
     "tempo": "50min",
     "dificuldade": "Fácil",
-    "imagem": "/img/clafoutis.jpg",
+    "imagem": "/img/Clafoutis.jpg",
     "ingredientes": [
       "Cerejas ou outra fruta",
       "Ovos",
@@ -904,7 +904,7 @@
     "descricao": "Bolo em camadas com café e chocolate",
     "tempo": "2h",
     "dificuldade": "Difícil",
-    "imagem": "/img/opera.jpg",
+    "imagem": "/img/Opera.jpg",
     "ingredientes": [
       "Farinha de amêndoas",
       "Ovos",
@@ -1015,7 +1015,7 @@
     "descricao": "Biscoitos folhados crocantes com açúcar",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/palmiers.jpg",
+    "imagem": "/img/Palmiers.jpg",
     "ingredientes": ["Massa folhada", "Açúcar"],
     "modoPreparo": [
       "Abra a massa e cubra com açúcar.",
@@ -1074,7 +1074,7 @@
     "tempo": "5min",
     "dificuldade": "Fácil",
     "porcoes": "1 pessoa",
-    "imagem": "/img/kir.jpg",
+    "imagem": "/img/Kir.jpg",
     "ingredientes": ["150ml de vinho branco seco", "20ml de creme de cassis"],
     "modoPreparo": [
       "Coloque o creme de cassis em uma taça.",
