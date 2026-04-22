@@ -173,12 +173,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
 
       <section
   id="home"
-  className="
-    relative z-10
-    flex min-h-screen items-center
-    overflow-visible
-    pt-24 md:pt-20
-  "
+  className="relative z-10 flex min-h-screen items-center overflow-visible pt-24 md:pt-20"
 >
         {/* Fundo principal */}
         <div

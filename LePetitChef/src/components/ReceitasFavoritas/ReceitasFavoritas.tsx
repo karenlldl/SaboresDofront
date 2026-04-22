@@ -16,6 +16,7 @@ const ReceitasFavoritas = () => {
   const [receitas, setReceitas] = useState<Receita[]>([]);
   const [receitaSelecionada, setReceitaSelecionada] = useState<Receita | null>(null);
   const [loading, setLoading] = useState(true);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     fetch("/data/receitas.json")
@@ -30,9 +31,24 @@ const ReceitasFavoritas = () => {
       });
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 150) {
+        setVisible(true);
+      }
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   if (loading) {
     return (
-      <section id="receitas" className="relative z-20 -mt-20 bg-[#c7d9e6] px-4 py-16 md:-mt-28">
+      <section
+        id="receitas"
+        className="relative z-0 -mt-20 bg-[#c7d9e6] px-4 py-16 md:-mt-28"
+      >
         <div className="mx-auto max-w-7xl text-center">
           <p className="text-lg text-slate-600">Carregando receitas...</p>
         </div>
@@ -42,15 +58,17 @@ const ReceitasFavoritas = () => {
 
   return (
     <section
-  id="receitas"
-  className="
-    relative z-0
-    -mt-20 md:-mt-28 lg:-mt-32
-    w-full bg-[#c7d9e6]
-    px-4 py-16 md:px-8 lg:px-12
-  "
->
-      <div className="mx-auto max-w-7xl pt-16 md:pt-20">
+      id="receitas"
+      className={`
+        relative z-0
+        -mt-20 w-full bg-[#c7d9e6] px-4 py-16
+        transition-all duration-700 ease-out
+        md:-mt-28 md:px-8
+        lg:-mt-32 lg:px-12
+        ${visible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"}
+      `}
+    >
+      <div className="mx-auto max-w-7xl pt-20 md:pt-28">
         <div className="mb-10 text-center">
           <p className="mb-2 font-serif text-2xl italic text-red-500">
             Le menu
