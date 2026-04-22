@@ -196,7 +196,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           className="
             pointer-events-none absolute left-1/2 top-[42%] z-2
             -translate-x-1/2 -translate-y-1/2 whitespace-nowrap
-            font-bold text-white/15
+            font-bold text-white/50
           "
           style={{
             fontSize: "clamp(3.2rem, 16vw, 16rem)",
@@ -207,9 +207,9 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
 
         <p
           className="
-            pointer-events-none absolute left-1/2 top-[56%] z-2
+            pointer-events-none absolute left-1/2 top-[58%] z-2
             flex -translate-x-1/2 -translate-y-1/2 gap-6 whitespace-nowrap
-            font-bold text-white/35 md:gap-20
+            font-bold text-white/50 md:gap-40
           "
           style={{
             fontSize: "clamp(1.2rem, 6vw, 6rem)",
