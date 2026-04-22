@@ -187,7 +187,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         <div
           className="absolute right-0 top-0 z-1 h-full w-[48%] sm:w-[50%] md:w-[52%]"
           style={{
-            borderRadius: "383.5px 0 66px 0",
+            borderRadius: "383.5px 0 51px 0",
             background: "#8DAAB7",
           }}
         />
@@ -232,7 +232,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           <img
             src="/img/remy.png"
             alt="Rémy"
-            className="w-64 sm:w-72 md:w-100 lg:w-120"
+            className="w-50 sm:w-72 md:w-100 lg:w-120"
           />
         </div>
           
