@@ -185,7 +185,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         />
 
         <div
-          className="absolute right-0 top-0 z-[1] h-full w-[48%] sm:w-[50%] md:w-[52%]"
+          className="absolute right-0 top-0 z-1 h-full w-[48%] sm:w-[50%] md:w-[52%]"
           style={{
             borderRadius: "383.5px 0 66px 0",
             background: "#8DAAB7",
@@ -194,7 +194,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
 
         <h1
           className="
-            pointer-events-none absolute left-1/2 top-[42%] z-[2]
+            pointer-events-none absolute left-1/2 top-[42%] z-2
             -translate-x-1/2 -translate-y-1/2 whitespace-nowrap
             font-bold text-white/15
           "
@@ -207,7 +207,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
 
         <p
           className="
-            pointer-events-none absolute left-1/2 top-[56%] z-[2]
+            pointer-events-none absolute left-1/2 top-[56%] z-2
             flex -translate-x-1/2 -translate-y-1/2 gap-6 whitespace-nowrap
             font-bold text-white/35 md:gap-20
           "
@@ -219,7 +219,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           <span>front</span>
         </p>
 
-        <div className="absolute bottom-14 left-4 z-[4] max-w-[150px] text-white md:bottom-20 md:left-8 md:max-w-none">
+        <div className="absolute bottom-14 left-4 z-4 max-w-37.5 text-white md:bottom-20 md:left-8 md:max-w-none">
           <p className="mb-3 text-sm md:text-base">
             Os sabores do <br /> Ratatouille na <br /> sua casa.
           </p>
@@ -228,7 +228,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           </p>
         </div>
 
-        <div className="absolute bottom-0 left-1/2 z-[5] -translate-x-1/2">
+        <div className="absolute bottom-0 left-1/2 z-5 -translate-x-1/2">
           <img
             src="/img/remy.png"
             alt="Rémy"
