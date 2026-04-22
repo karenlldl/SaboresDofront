@@ -113,7 +113,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         <div
           className={`
             overflow-hidden transition-all duration-300 md:hidden
-            ${menuOpen ? "mt-4 max-h-[420px]" : "max-h-0"}
+            ${menuOpen ? "mt-4 max-h-105" : "max-h-0"}
           `}
         >
           <div className="rounded-3xl bg-[#1f2f52]/90 p-5 shadow-xl backdrop-blur-md">
@@ -175,7 +175,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
   id="home"
   className="relative z-10 flex min-h-screen items-center overflow-visible pt-24 md:pt-20"
 >
-        {/* Fundo principal */}
         <div
           className="absolute inset-0 z-0"
           style={{
@@ -185,7 +184,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           }}
         />
 
-        {/* Bloco curvo da direita */}
         <div
           className="absolute right-0 top-0 z-[1] h-full w-[48%] sm:w-[50%] md:w-[52%]"
           style={{
@@ -194,7 +192,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           }}
         />
 
-        {/* Título de fundo */}
         <h1
           className="
             pointer-events-none absolute left-1/2 top-[42%] z-[2]
@@ -208,7 +205,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           SABORES
         </h1>
 
-        {/* Subtítulo de fundo */}
         <p
           className="
             pointer-events-none absolute left-1/2 top-[56%] z-[2]
@@ -223,7 +219,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           <span>front</span>
         </p>
 
-        {/* Texto lateral */}
         <div className="absolute bottom-14 left-4 z-[4] max-w-[150px] text-white md:bottom-20 md:left-8 md:max-w-none">
           <p className="mb-3 text-sm md:text-base">
             Os sabores do <br /> Ratatouille na <br /> sua casa.
@@ -233,7 +228,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           </p>
         </div>
 
-        {/* Rémy */}
         <div className="absolute bottom-0 left-1/2 z-[5] -translate-x-1/2">
           <img
             src="/img/remy.png"
