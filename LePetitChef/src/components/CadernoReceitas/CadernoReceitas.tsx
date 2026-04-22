@@ -53,15 +53,15 @@ const CadernoReceitas = ({
   }, []);
 
   const receitasFiltradas = receitas.filter((receita) => {
-    const categoriaValida =
-      categoriaAtiva === "Todas" || receita.categoria === categoriaAtiva;
+  const categoriaValida =
+    categoriaAtiva === "Todas" || receita.categoria === categoriaAtiva;
 
-    const buscaValida = receita.nome
-      .toLowerCase()
-      .includes(busca.toLowerCase());
+  const buscaValida = (receita.nome ?? "")
+    .toLowerCase()
+    .includes(busca.toLowerCase());
 
-    return categoriaValida && buscaValida;
-  });
+  return categoriaValida && buscaValida;
+});
 
   const receitasVisiveis = usuario
     ? receitasFiltradas
