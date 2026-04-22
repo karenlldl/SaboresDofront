@@ -6,7 +6,7 @@
     "descricao": "Espiral de legumes provençal assada lentamente",
     "tempo": "1h 15min",
     "dificuldade": "Médio",
-    "imagem": "/img/ratatouille.png",
+    "imagem": "/img/ratatouille.jpg",
     "ingredientes": [
       "1 abobrinha",
       "1 berinjela",
@@ -290,7 +290,7 @@
     "descricao": "Sanduíche quente com queijo e presunto",
     "tempo": "25min",
     "dificuldade": "Fácil",
-    "imagem": "/img/croque-monsieur.jpeg",
+    "imagem": "/img/croque-monsieur.jpg",
     "ingredientes": [
       "Pão de forma",
       "Presunto",
@@ -332,7 +332,7 @@
     "descricao": "Peito de pato grelhado com pele crocante",
     "tempo": "45min",
     "dificuldade": "Médio",
-    "imagem": "/img/magret-de-canard.jpeg",
+    "imagem": "/img/magret-de-canard.jpg",
     "ingredientes": ["2 peitos de pato", "Sal", "Pimenta", "Ervas"],
     "modoPreparo": [
       "Faça cortes leves na pele do pato.",
@@ -439,7 +439,7 @@
     "descricao": "Carne desfiada coberta com purê gratinado",
     "tempo": "1h 10min",
     "dificuldade": "Fácil",
-    "imagem": "/img/hachis-parmentie.jpg",
+    "imagem": "/img/hachis-parmentier.jpg",
     "ingredientes": [
       "Carne desfiada",
       "Batatas",
@@ -485,7 +485,7 @@
     "descricao": "Sopa de cebola gratinada com queijo",
     "tempo": "1h",
     "dificuldade": "Fácil",
-    "imagem": "/img/soupe.png",
+    "imagem": "/img/soupe.jpg",
     "ingredientes": [
       "4 cebolas",
       "Manteiga",
@@ -722,7 +722,7 @@
     "descricao": "Massa choux recheada com creme e cobertura de chocolate",
     "tempo": "1h 30min",
     "dificuldade": "Difícil",
-    "imagem": "/img/eclair.png",
+    "imagem": "/img/eclair.jpg",
     "ingredientes": [
       "Água",
       "Manteiga",
@@ -926,7 +926,7 @@
     "descricao": "Pequenos bolinhos de amêndoa e manteiga noisette",
     "tempo": "35min",
     "dificuldade": "Fácil",
-    "imagem": "/img/financiers.jpeg",
+    "imagem": "/img/financiers.jpg",
     "ingredientes": [
       "Farinha de amêndoas",
       "Claras",
@@ -1052,7 +1052,7 @@
     "descricao": "Torta folhada recheada com creme de amêndoas",
     "tempo": "1h",
     "dificuldade": "Médio",
-    "imagem": "/img/galette-des-rois.png",
+    "imagem": "/img/galette-des-rois.jpg",
     "ingredientes": [
       "Massa folhada",
       "Manteiga",
@@ -1106,7 +1106,7 @@
     "tempo": "10min",
     "dificuldade": "Médio",
     "porcoes": "1 pessoa",
-    "imagem": "/img/french75.jpeg",
+    "imagem": "/img/french75.jpg",
     "ingredientes": [
       "30ml de gin",
       "15ml de suco de limão",
