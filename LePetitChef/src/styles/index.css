@@ -11,3 +11,9 @@ body,
 html {
   scroll-behavior: smooth;
 }
+@font-face {
+    font-family: 'HelveticaCompressed';
+    src: local('Helvetica Compressed'), local('Helvetica Neue Condensed Bold'), local('Arial Narrow');
+    font-weight: 900;
+    font-stretch: ultra-condensed;
+  }

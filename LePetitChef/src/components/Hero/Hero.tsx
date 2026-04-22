@@ -31,8 +31,8 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           backdrop-blur-sm
         "
       >
-        <div className="relative flex min-h-[56px] items-center justify-center">
-          <a href="#home" className="absolute left-0 md:left-0">
+        <div className="relative flex min-h-14 items-center justify-center">
+          <a href="#home" className="absolute left-0">
             <img
               src="/img/logo.png"
               alt="Le Petit Chef"
@@ -40,7 +40,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
             />
           </a>
 
-          {/* NAV DESKTOP */}
           <nav className="hidden items-center justify-center gap-8 md:flex lg:gap-14">
             {navItems.map((item) => (
               <a
@@ -59,7 +58,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
             ))}
           </nav>
 
-          {/* AÇÕES DESKTOP */}
           <div className="absolute right-0 hidden items-center gap-3 md:flex">
             {usuario ? (
               <>
@@ -80,34 +78,28 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
               </>
             ) : (
               <button
-  type="button"
-  onClick={() => abrirAuthModal("login")}
-  className="
-    rounded-[24px]
-    border border-[#46748D]
-    bg-[#83a5b8]
-    px-6 py-3
-    text-sm md:text-base
-    font-semibold text-white/90
-
-    shadow-[0_4px_10px_rgba(0,0,0,0.1)]
-    
-    transition-all duration-200
-
-    hover:bg-[#bf3838]
-    hover:border-[#355a6d]
-    hover:scale-[1.03]
-
-    active:scale-[0.96]
-    active:shadow-[0_2px_4px_rgba(0,0,0,0.2)]
-  "
->
-  Entre ou Cadastre-se
-</button>
+                type="button"
+                onClick={() => abrirAuthModal("login")}
+                className="
+                  rounded-3xl
+                  border border-[#46748D]
+                  bg-[#83a5b8]
+                  px-6 py-3
+                  text-sm font-semibold text-white/90 md:text-base
+                  shadow-[0_4px_10px_rgba(0,0,0,0.1)]
+                  transition-all duration-200
+                  hover:scale-[1.03]
+                  hover:border-[#355a6d]
+                  hover:bg-[#bf3838]
+                  active:scale-[0.96]
+                  active:shadow-[0_2px_4px_rgba(0,0,0,0.2)]
+                "
+              >
+                Entre ou Cadastre-se
+              </button>
             )}
           </div>
 
-          {/* BOTÃO HAMBURGUER */}
           <button
             type="button"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -118,7 +110,6 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           </button>
         </div>
 
-        {/* MENU MOBILE */}
         <div
           className={`
             overflow-hidden transition-all duration-300 md:hidden
@@ -164,7 +155,13 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
                     abrirAuthModal("login");
                     setMenuOpen(false);
                   }}
-                  className="w-full rounded-full bg-[#1f2f52] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#16223b] border border-white/20"
+                  className="
+                    w-full rounded-3xl border border-[#46748D]
+                    bg-[#83a5b8] px-5 py-3 text-sm font-semibold text-white/90
+                    transition-all duration-200
+                    hover:border-[#355a6d] hover:bg-[#bf3838]
+                    active:scale-[0.96]
+                  "
                 >
                   Entre ou Cadastre-se
                 </button>
@@ -175,49 +172,64 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
       </header>
 
       <section
-        id="home"
-        className="
-          relative flex min-h-screen items-center overflow-hidden
-          bg-[#8fafc0] pt-24 md:pt-20
-        "
-      >
+  id="home"
+  className="
+    relative z-10
+    flex min-h-screen items-center
+    overflow-visible
+    pt-24 md:pt-20
+  "
+>
+        {/* Fundo principal */}
         <div
-          className="
-            absolute -right-24 -top-10
-            rounded-full bg-[#a8c5d4] opacity-70 blur-sm
-            md:-right-20 md:-top-20
-          "
+          className="absolute inset-0 z-0"
           style={{
-            width: "clamp(180px, 35vw, 480px)",
-            height: "clamp(180px, 35vw, 480px)",
+            borderRadius: "0 6px 51px 51px",
+            background:
+              "linear-gradient(180deg, #5D879D 0%, #7EA6BC 43.01%, #9FC6DA 100%)",
           }}
         />
 
+        {/* Bloco curvo da direita */}
+        <div
+          className="absolute right-0 top-0 z-[1] h-full w-[48%] sm:w-[50%] md:w-[52%]"
+          style={{
+            borderRadius: "383.5px 0 66px 0",
+            background: "#8DAAB7",
+          }}
+        />
+
+        {/* Título de fundo */}
         <h1
           className="
-            absolute left-1/2 top-[46%] hidden -translate-x-1/2 -translate-y-1/2
-            whitespace-nowrap font-bold text-white/20 md:block
+            pointer-events-none absolute left-1/2 top-[42%] z-[2]
+            -translate-x-1/2 -translate-y-1/2 whitespace-nowrap
+            font-bold text-white/15
           "
-          style={{ fontSize: "clamp(6rem, 18vw, 16rem)" }}
+          style={{
+            fontSize: "clamp(3.2rem, 16vw, 16rem)",
+          }}
         >
           SABORES
         </h1>
 
+        {/* Subtítulo de fundo */}
         <p
           className="
-            absolute left-1/2 hidden -translate-x-1/2 gap-20
-            font-bold text-white/50 md:flex
+            pointer-events-none absolute left-1/2 top-[56%] z-[2]
+            flex -translate-x-1/2 -translate-y-1/2 gap-6 whitespace-nowrap
+            font-bold text-white/35 md:gap-20
           "
           style={{
-            top: "60%",
-            fontSize: "clamp(2rem, 6vw, 6rem)",
+            fontSize: "clamp(1.2rem, 6vw, 6rem)",
           }}
         >
           <span>do</span>
           <span>front</span>
         </p>
 
-        <div className="absolute bottom-14 left-4 z-10 max-w-[150px] text-white md:bottom-20 md:left-8 md:max-w-none">
+        {/* Texto lateral */}
+        <div className="absolute bottom-14 left-4 z-[4] max-w-[150px] text-white md:bottom-20 md:left-8 md:max-w-none">
           <p className="mb-3 text-sm md:text-base">
             Os sabores do <br /> Ratatouille na <br /> sua casa.
           </p>
@@ -226,13 +238,15 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           </p>
         </div>
 
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2">
+        {/* Rémy */}
+        <div className="absolute bottom-0 left-1/2 z-[5] -translate-x-1/2">
           <img
             src="/img/remy.png"
             alt="Rémy"
             className="w-64 sm:w-72 md:w-100 lg:w-120"
           />
         </div>
+          
       </section>
     </>
   );

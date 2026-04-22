@@ -32,7 +32,7 @@ const ReceitasFavoritas = () => {
 
   if (loading) {
     return (
-      <section id="receitas" className="bg-[#c7d9e6] px-4 py-16">
+      <section id="receitas" className="relative z-20 -mt-20 bg-[#c7d9e6] px-4 py-16 md:-mt-28">
         <div className="mx-auto max-w-7xl text-center">
           <p className="text-lg text-slate-600">Carregando receitas...</p>
         </div>
@@ -42,10 +42,15 @@ const ReceitasFavoritas = () => {
 
   return (
     <section
-      id="receitas"
-      className="w-full bg-[#c7d9e6] px-4 py-16 md:px-8 lg:px-12"
-    >
-      <div className="mx-auto max-w-7xl">
+  id="receitas"
+  className="
+    relative z-0
+    -mt-20 md:-mt-28 lg:-mt-32
+    w-full bg-[#c7d9e6]
+    px-4 py-16 md:px-8 lg:px-12
+  "
+>
+      <div className="mx-auto max-w-7xl pt-16 md:pt-20">
         <div className="mb-10 text-center">
           <p className="mb-2 font-serif text-2xl italic text-red-500">
             Le menu
@@ -60,53 +65,58 @@ const ReceitasFavoritas = () => {
           </p>
         </div>
 
-        <div className="rounded-4xl bg-[linear-gradient(45deg,#ef4444_12.5%,#fff7ed_12.5%,#fff7ed_25%,#ef4444_25%,#ef4444_37.5%,#fff7ed_37.5%,#fff7ed_50%,#ef4444_50%,#ef4444_62.5%,#fff7ed_62.5%,#fff7ed_75%,#ef4444_75%,#ef4444_87.5%,#fff7ed_87.5%,#fff7ed_100%)] bg-size-[48px_48px] p-4 md:p-6 bg-[#c7d9e6] py-16 flex justify-center">
-          <div className="rounded-[1.8rem] bg-[#f6f0ea] p-6 md:p-10 shadow-lg w-full">
-            <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4 ">
+        <div className="flex justify-center rounded-[2.2rem] bg-[linear-gradient(45deg,#ef4444_12.5%,#fff7ed_12.5%,#fff7ed_25%,#ef4444_25%,#ef4444_37.5%,#fff7ed_37.5%,#fff7ed_50%,#ef4444_50%,#ef4444_62.5%,#fff7ed_62.5%,#fff7ed_75%,#ef4444_75%,#ef4444_87.5%,#fff7ed_87.5%,#fff7ed_100%)] bg-size-[48px_48px] p-4 py-16 shadow-[0_-12px_30px_rgba(0,0,0,0.08),0_12px_30px_rgba(0,0,0,0.12)] md:p-6">
+          <div className="w-full rounded-[1.8rem] bg-[#f6f0ea] p-6 shadow-lg md:p-10">
+            <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
               {receitas
-            .filter((receita) =>
-                ["Ratatouille", "Crème Brûlée", "Éclair de Chocolate","Soupe à l'Oignon"].includes(receita.nome)
-                    )
+                .filter((receita) =>
+                  [
+                    "Ratatouille",
+                    "Crème Brûlée",
+                    "Éclair de Chocolate",
+                    "Soupe à l'Oignon",
+                  ].includes(receita.nome)
+                )
                 .map((receita) => (
-                <article
-                  key={receita.id}
-                  className="overflow-hidden rounded-[1.8rem] bg-[#c7d9e6] shadow-md transition duration-300 hover:-translate-y-1"
-                >
-                  <div className="relative">
-                    <img
-                      src={receita.imagem}
-                      alt={receita.nome}
-                      className="h-48 w-full object-cover"
-                    />
+                  <article
+                    key={receita.id}
+                    className="overflow-hidden rounded-[1.8rem] bg-[#c7d9e6] shadow-md transition duration-300 hover:-translate-y-1"
+                  >
+                    <div className="relative">
+                      <img
+                        src={receita.imagem}
+                        alt={receita.nome}
+                        className="h-48 w-full object-cover"
+                      />
 
-                    <span className="absolute left-3 top-3 rounded-full bg-[#d8e5ef] px-3 py-1 text-xs font-medium text-[#2d3a56]">
-                      {receita.categoria}
-                    </span>
-                  </div>
-
-                  <div className="p-5">
-                    <h3 className="font-serif text-2xl font-bold text-[#2d3a56]">
-                      {receita.nome}
-                    </h3>
-
-                    <p className="mt-1 min-h-12 text-sm italic text-slate-600">
-                      {receita.descricao}
-                    </p>
-
-                    <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-slate-500">
-                      <span>◷ {receita.tempo}</span>
-                      <span>◔ {receita.dificuldade}</span>
+                      <span className="absolute left-3 top-3 rounded-full bg-[#d8e5ef] px-3 py-1 text-xs font-medium text-[#2d3a56]">
+                        {receita.categoria}
+                      </span>
                     </div>
 
-                    <button
-                      onClick={() => setReceitaSelecionada(receita)}
-                      className="mt-5 w-full rounded-full bg-[#1f2f52] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#16223b]"
-                    >
-                      Ver Receita
-                    </button>
-                  </div>
-                </article>
-              ))}
+                    <div className="p-5">
+                      <h3 className="font-serif text-2xl font-bold text-[#2d3a56]">
+                        {receita.nome}
+                      </h3>
+
+                      <p className="mt-1 min-h-12 text-sm italic text-slate-600">
+                        {receita.descricao}
+                      </p>
+
+                      <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-slate-500">
+                        <span>◷ {receita.tempo}</span>
+                        <span>◔ {receita.dificuldade}</span>
+                      </div>
+
+                      <button
+                        onClick={() => setReceitaSelecionada(receita)}
+                        className="mt-5 w-full rounded-full bg-[#1f2f52] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#16223b]"
+                      >
+                        Ver Receita
+                      </button>
+                    </div>
+                  </article>
+                ))}
             </div>
           </div>
         </div>
@@ -162,7 +172,7 @@ const ReceitasFavoritas = () => {
                 <ul className="space-y-3 text-base text-slate-700">
                   {receitaSelecionada.ingredientes.map((ingrediente, index) => (
                     <li key={index} className="flex gap-3">
-                      <span className="mt-2.25 h-2 w-2 rounded-full bg-red-500" />
+                      <span className="mt-2.5 h-2 w-2 rounded-full bg-red-500" />
                       <span>{ingrediente}</span>
                     </li>
                   ))}
