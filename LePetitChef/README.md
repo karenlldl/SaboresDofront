@@ -6,20 +6,18 @@ Projeto desenvolvido como parte do **Checkpoint 05**, com o objetivo de criar um
 
 ## 📌 Descrição
 
-O **Le Petit Chef** é uma aplicação inspirada no universo da culinária francesa, trazendo receitas organizadas por categorias como:
+O **Le Petit Chef** é uma **Single Page Application (SPA)** inspirada no universo da culinária francesa, trazendo receitas organizadas por categorias como:
 
-- 🍷 Bebidas
-- 🥖 Entradas
-- 🍲 Pratos principais
-- 🍰 Sobremesas
+- 🍷 Bebidas  
+- 🥖 Entradas  
+- 🍲 Pratos principais  
+- 🍰 Sobremesas  
 
-O projeto simula um portal gastronômico moderno, com:
+Toda a navegação acontece dentro de **uma única página (Home)**, utilizando navegação por seções (scroll).  
 
-- Interface elegante inspirada no estilo francês
-- Animações e microinterações
-- Layout responsivo (mobile-first)
-- Sistema de login simulado
-- Navegação dinâmica
+A única exceção é a página de erro:
+
+- ⚠️ **NotFound** → exibida quando uma rota inválida é acessada
 
 ---
 
