@@ -10,8 +10,10 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
  
         <div className="flex flex-col items-center md:items-start gap-1">
+          <img src="/img/logo2.png" alt="Logo Le Petit Chef" />
           <span className="text-xl font-bold tracking-wide">Le Petit Chef</span>
           <span className="text-white/50 text-xs italic">"Qualquer um pode cozinhar." - Rémy</span>
+          
         </div>
  
         <div className="flex flex-col items-center md:items-start gap-2">

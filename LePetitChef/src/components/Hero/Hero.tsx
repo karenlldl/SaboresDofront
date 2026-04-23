@@ -4,8 +4,8 @@ import type { AbaAuth, Usuario } from "../../App";
 const navItems = [
   { label: "Receitas", id: "receitas" },
   { label: "Sobre", id: "sobre" },
-  { label: "Contato", id: "contato" },
   { label: "Equipe", id: "equipe" },
+  { label: "Contato", id: "contato" },
 ];
 
 type HeroProps = {
