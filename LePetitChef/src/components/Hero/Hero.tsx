@@ -184,8 +184,8 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           className="
             absolute left-0 top-0 z-0 w-full
             h-[90%] md:h-full
-            [border-radius:0_6px_24px_24px]
-            md:[border-radius:0_6px_51px_51px]
+            rounded-[0_6px_24px_24px]
+            md:rounded-[0_6px_51px_51px]
           "
           style={{
             background:
@@ -196,11 +196,11 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         {/* fundo curvo da direita */}
         <div
           className="
-            absolute right-0 top-0 z-[1]
+            absolute right-0 top-0 z-1
             h-[70%] w-[0%]
             md:h-full md:w-[50%]
-            [border-radius:180px_0_30px_0]
-            md:[border-radius:383.5px_0_51px_0]
+            rounded-[180px_0_30px_0]
+            md:rounded-[383.5px_0_51px_0]
           "
           style={{
             background: "#8DAAB7",
@@ -210,7 +210,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         {/* SABORES */}
         <h1
           className="
-            pointer-events-none absolute left-1/2 z-[2]
+            pointer-events-none absolute left-1/2 z-2
             -translate-x-1/2 -translate-y-1/2
             whitespace-nowrap font-bold text-white/40
             top-[36%] sm:top-[30%] md:top-[42%]
@@ -223,11 +223,11 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         {/* do front */}
         <p
           className="
-            pointer-events-none absolute left-1/2 z-[2]
+            pointer-events-none absolute left-1/2 z-2
             flex -translate-x-1/2 -translate-y-1/2
             whitespace-nowrap text-white/50 font-light
             top-[40%] sm:top-[34%] md:top-[58%]
-            gap-[52px] md:gap-[160px]
+            gap-13 md:gap-40
             text-[clamp(0.85rem,4vw,1.2rem)] md:text-[clamp(1.2rem,6vw,6rem)]
           "
         >
@@ -238,10 +238,10 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         {/* Texto lateral */}
         <div
           className="
-            absolute z-[4] text-white
+            absolute z-4 text-white
             left-4 bottom-[18%]
-            max-w-[110px]
-            sm:max-w-[130px]
+            max-w-27.5
+            sm:max-w-32.5
             md:left-8 md:bottom-20 md:max-w-none
           "
         >
@@ -257,13 +257,13 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         {/* imagem do Rémy */}
         <div
   className="
-    absolute z-[5]
+    absolute z-5
     left-1/2
     -translate-x-1/2
 
-    bottom-[99px]     
-    sm:bottom-[60px]  
-    md:bottom-[20px]  
+    bottom-24.75    
+    sm:bottom-15
+    md:bottom-5
     lg:bottom-0   
   "
 >
@@ -271,10 +271,10 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
             src="/img/remy.png"
             alt="Rémy"
             className="
-              w-[300px]
-              sm:w-[300px]
-              md:w-[500px]
-              lg:w-[500px]
+              w-75
+              sm:w-75
+              md:w-125
+              lg:w-125
             "
           />
         </div>
