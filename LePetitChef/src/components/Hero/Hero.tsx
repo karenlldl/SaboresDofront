@@ -191,7 +191,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           pt-24 md:pt-20
         "
       >
-        {/* Fundo principal */}
+        {/* fundo principal */}
 <div
   className="absolute left-0 top-0 z-0 w-full"
   style={{
@@ -202,7 +202,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
   }}
 />
 
-        {/* Bloco curvo da direita */}
+        {/* fundo curvo da direita */}
         <div
   className="absolute right-0 top-0 z-1"
   style={{
@@ -252,10 +252,10 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         {/* Texto lateral */}
         <div
   className="
-    absolute z-[4] text-white
+    absolute z-4 text-white
     left-4 bottom-[18%]
-    max-w-[110px]
-    sm:max-w-[130px]
+    max-w-27.5
+    sm:max-w-32.5
     md:left-8 md:bottom-20 md:max-w-none
   "
 >
@@ -268,10 +268,10 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
   </p>
 </div>
 
-        {/* Rémy */}
+        {/* imagem do Rémy */}
         <div
   className="
-    absolute z-[5]
+    absolute z-5
     left-1/2 bottom-[-px]
     -translate-x-1/2
     sm:bottom-[-px]
@@ -282,10 +282,10 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
     src="/img/remy.png"
     alt="Rémy"
     className="
-      w-[300px]
-      sm:w-[300px]
-      md:w-[500px]
-      lg:w-[430px]
+      w-75
+      sm:w-75
+      md:w-125
+      lg:w-107.5
     "
   />
 </div>

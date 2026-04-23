@@ -24,7 +24,6 @@ const Equipe = () => {
     >
       <div className="mx-auto max-w-6xl text-center">
         
-        {/* Título */}
         <p className="font-serif text-2xl italic text-red-500">
           La brigade
         </p>

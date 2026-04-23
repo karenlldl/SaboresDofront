@@ -60,7 +60,6 @@ const Contato = () => {
             </div>
           </div>
 
-          {/* Lado direito - formulário */}
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div>
               <input

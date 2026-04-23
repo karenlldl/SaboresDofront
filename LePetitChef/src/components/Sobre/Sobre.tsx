@@ -5,7 +5,7 @@ const Sobre = () => {
       className="w-full bg-[#c7d9e6] px-4 py-16 md:px-8 lg:px-12"
     >
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2 lg:items-center">
-        {/* Lado esquerdo */}
+
         <div className="max-w-2xl">
           <p className="mb-3 font-serif text-2xl italic text-red-500 md:text-3xl">
             Notre histoire
@@ -23,7 +23,7 @@ const Sobre = () => {
           </p>
         </div>
 
-        {/* Lado direito */}
+
         <div className="space-y-5">
           <div className="flex items-start gap-4 rounded-[1.8rem] bg-[#d4e3ef] px-5 py-5 shadow-[0_8px_24px_rgba(0,0,0,0.06)]">
             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#c8d8e6] text-2xl text-red-500">
