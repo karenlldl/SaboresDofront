@@ -47,36 +47,36 @@ A única exceção é a página de erro:
 
 ## 📂 Estrutura do Projeto
 
-LePetitChef/
-│
-├── public/
-│ ├── data/
-│ │ └── receitas.json
-│ └── img/
-│
-├── src/
-│ ├── assets/
-│ ├── components/
-│ │ ├── CadernoReceitas/
-│ │ ├── Contato/
-│ │ ├── Equipe/
-│ │ ├── Footer/
-│ │ ├── Hero/
-│ │ ├── ReceitasFavoritas/
-│ │ └── Sobre/
-│ │
-│ ├── pages/
-│ │ ├── Home/
-│ │ └── NotFound/
-│ │
-│ ├── styles/
-│ │ └── index.css
-│ │
-│ ├── App.tsx
-│ └── main.tsx
-│
-└── index.html
-
+LePetitChef/\
+│\
+├── public/\
+│ ├── data/\
+│ │ └── receitas.json\
+│ └── img/\
+│\
+├── src/\
+│ ├── assets/\
+│ ├── components/\
+│ │ ├── CadernoReceitas/\
+│ │ ├── Contato/\
+│ │ ├── Equipe/\
+│ │ ├── Footer/\
+│ │ ├── Hero/\
+│ │ ├── ReceitasFavoritas/\
+│ │ └── Sobre/\
+│ │\
+│ ├── pages/\
+│ │ ├── Home/\
+│ │ └── NotFound/\
+│ │\
+│ ├── styles/\
+│ │ └── index.css\
+│ │\
+│ ├── App.tsx\
+│ └── main.tsx\
+│\
+└── index.html\
+\
 ---
 
 ## 🧠 Funcionalidades
