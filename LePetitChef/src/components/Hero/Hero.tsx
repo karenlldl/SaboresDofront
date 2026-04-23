@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { AbaAuth, Usuario } from "../../App";
 
 const navItems = [
@@ -16,11 +16,23 @@ type HeroProps = {
 
 const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const handleLogout = () => {
     setUsuario(null);
     setMenuOpen(false);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
@@ -36,7 +48,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
             <img
               src="/img/logo.png"
               alt="Le Petit Chef"
-              className="h-9 cursor-pointer object-contain md:h-12"
+              className="h-8 cursor-pointer object-contain md:h-12"
             />
           </a>
 
@@ -172,70 +184,111 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
       </header>
 
       <section
-  id="home"
-  className="relative z-10 flex min-h-screen items-center overflow-visible pt-24 md:pt-20"
->
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            borderRadius: "0 6px 51px 51px",
-            background:
-              "linear-gradient(180deg, #5D879D 0%, #7EA6BC 43.01%, #9FC6DA 100%)",
-          }}
-        />
+        id="home"
+        className="
+          relative z-10 flex items-center overflow-visible
+          h-[75vh] md:min-h-screen
+          pt-24 md:pt-20
+        "
+      >
+        {/* Fundo principal */}
+<div
+  className="absolute left-0 top-0 z-0 w-full"
+  style={{
+    height: isMobile ? "90%" : "100%",
+    borderRadius: isMobile ? "0 6px 24px 24px" : "0 6px 51px 51px",
+    background:
+      "linear-gradient(180deg, #5D879D 0%, #7EA6BC 43.01%, #9FC6DA 100%)",
+  }}
+/>
 
+        {/* Bloco curvo da direita */}
         <div
-          className="absolute right-0 top-0 z-1 h-full w-[48%] sm:w-[50%] md:w-[52%]"
-          style={{
-            borderRadius: "383.5px 0 51px 0",
-            background: "#8DAAB7",
-          }}
-        />
+  className="absolute right-0 top-0 z-1"
+  style={{
+    height: isMobile ? "70%" : "100%",
+    width: isMobile ? "0%" : "50%",
+    borderRadius: isMobile ? "180px 0 30px 0" : "383.5px 0 51px 0",
+    background: "#8DAAB7",
+  }}
+/>
 
+        {/* SABORES */}
         <h1
           className="
-            pointer-events-none absolute left-1/2 top-[42%] z-2
-            -translate-x-1/2 -translate-y-1/2 whitespace-nowrap
-            font-bold text-white/40
+            pointer-events-none absolute left-1/2 z-2
+            -translate-x-1/2 -translate-y-1/2
+            whitespace-nowrap font-bold text-white/40
           "
           style={{
-            fontSize: "clamp(3.2rem, 16vw, 16rem)",
+            top: isMobile ? "28%" : "42%",
+            fontSize: isMobile
+              ? "clamp(2.4rem, 10vw, 4rem)"
+              : "clamp(3.2rem, 16vw, 16rem)",
           }}
         >
           SABORES
         </h1>
 
+        {/* do front */}
         <p
           className="
-            pointer-events-none absolute left-1/2 top-[58%] z-2
-            flex -translate-x-1/2 -translate-y-1/2 gap-6 whitespace-nowrap
-             text-white/50 md:gap-40 font-light
+            pointer-events-none absolute left-1/2 z-2
+            flex -translate-x-1/2 -translate-y-1/2
+            whitespace-nowrap text-white/50 font-light
           "
           style={{
-            fontSize: "clamp(1.2rem, 6vw, 6rem)",
+            top: isMobile ? "32%" : "58%",
+            gap: isMobile ? "18px" : "160px",
+            fontSize: isMobile
+              ? "clamp(0.85rem, 4vw, 1.2rem)"
+              : "clamp(1.2rem, 6vw, 6rem)",
           }}
         >
           <span>do</span>
           <span>front</span>
         </p>
 
-        <div className="absolute bottom-14 left-4 z-4 max-w-37.5 text-white md:bottom-20 md:left-8 md:max-w-none">
-          <p className="mb-3 text-sm md:text-base">
-            Os sabores do <br /> Ratatouille na <br /> sua casa.
-          </p>
-          <p className="text-sm italic md:text-base">
-            "Qualquer um pode cozinhar." - Rémy
-          </p>
-        </div>
+        {/* Texto lateral */}
+        <div
+  className="
+    absolute z-[4] text-white
+    left-4 bottom-[18%]
+    max-w-[110px]
+    sm:max-w-[130px]
+    md:left-8 md:bottom-20 md:max-w-none
+  "
+>
+  <p className="mb-3 text-xs leading-relaxed sm:text-sm md:text-base">
+    Os sabores do <br /> Ratatouille na <br /> sua casa.
+  </p>
 
-        <div className="absolute bottom-0 left-1/2 z-5 -translate-x-1/2">
-          <img
-            src="/img/remy.png"
-            alt="Rémy"
-            className="w-50 sm:w-72 md:w-100 lg:w-135"
-          />
-        </div>
-          
+  <p className="text-[11px] italic leading-relaxed sm:text-sm md:text-base">
+    "Qualquer um pode cozinhar." - Rémy
+  </p>
+</div>
+
+        {/* Rémy */}
+        <div
+  className="
+    absolute z-[5]
+    left-1/2 bottom-[-px]
+    -translate-x-1/2
+    sm:bottom-[-px]
+    md:bottom-0
+  "
+>
+  <img
+    src="/img/remy.png"
+    alt="Rémy"
+    className="
+      w-[300px]
+      sm:w-[300px]
+      md:w-[500px]
+      lg:w-[430px]
+    "
+  />
+</div>
       </section>
     </>
   );
