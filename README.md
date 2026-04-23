@@ -13,7 +13,7 @@ O **Le Petit Chef** é uma **Single Page Application (SPA)** inspirada no univer
 - 🍲 Pratos principais
 - 🍰 Sobremesas
 
-Toda a navegação acontece dentro de **uma única página (Home)**, utilizando navegação por seções (scroll).
+Toda a navegação acontece dentro de **uma única página (Home)**, utilizando navegação por seções (scroll)
 
 A única exceção é a página de erro:
 
