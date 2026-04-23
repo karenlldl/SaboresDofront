@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import type { AbaAuth, Usuario } from "../../App";
 
 const navItems = [
@@ -16,23 +16,11 @@ type HeroProps = {
 
 const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
 
   const handleLogout = () => {
     setUsuario(null);
     setMenuOpen(false);
   };
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   return (
     <>
@@ -192,40 +180,42 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         "
       >
         {/* fundo principal */}
-<div
-  className="absolute left-0 top-0 z-0 w-full"
-  style={{
-    height: isMobile ? "90%" : "100%",
-    borderRadius: isMobile ? "0 6px 24px 24px" : "0 6px 51px 51px",
-    background:
-      "linear-gradient(180deg, #5D879D 0%, #7EA6BC 43.01%, #9FC6DA 100%)",
-  }}
-/>
+        <div
+          className="
+            absolute left-0 top-0 z-0 w-full
+            h-[90%] md:h-full
+            [border-radius:0_6px_24px_24px]
+            md:[border-radius:0_6px_51px_51px]
+          "
+          style={{
+            background:
+              "linear-gradient(180deg, #5D879D 0%, #7EA6BC 43.01%, #9FC6DA 100%)",
+          }}
+        />
 
         {/* fundo curvo da direita */}
         <div
-  className="absolute right-0 top-0 z-1"
-  style={{
-    height: isMobile ? "70%" : "100%",
-    width: isMobile ? "0%" : "50%",
-    borderRadius: isMobile ? "180px 0 30px 0" : "383.5px 0 51px 0",
-    background: "#8DAAB7",
-  }}
-/>
+          className="
+            absolute right-0 top-0 z-[1]
+            h-[70%] w-[0%]
+            md:h-full md:w-[50%]
+            [border-radius:180px_0_30px_0]
+            md:[border-radius:383.5px_0_51px_0]
+          "
+          style={{
+            background: "#8DAAB7",
+          }}
+        />
 
         {/* SABORES */}
         <h1
           className="
-            pointer-events-none absolute left-1/2 z-2
+            pointer-events-none absolute left-1/2 z-[2]
             -translate-x-1/2 -translate-y-1/2
             whitespace-nowrap font-bold text-white/40
+            top-[36%] sm:top-[30%] md:top-[42%]
+            text-[clamp(2.4rem,10vw,4rem)] md:text-[clamp(3.2rem,16vw,16rem)]
           "
-          style={{
-            top: isMobile ? "28%" : "42%",
-            fontSize: isMobile
-              ? "clamp(2.4rem, 10vw, 4rem)"
-              : "clamp(3.2rem, 16vw, 16rem)",
-          }}
         >
           SABORES
         </h1>
@@ -233,17 +223,13 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
         {/* do front */}
         <p
           className="
-            pointer-events-none absolute left-1/2 z-2
+            pointer-events-none absolute left-1/2 z-[2]
             flex -translate-x-1/2 -translate-y-1/2
             whitespace-nowrap text-white/50 font-light
+            top-[40%] sm:top-[34%] md:top-[58%]
+            gap-[52px] md:gap-[160px]
+            text-[clamp(0.85rem,4vw,1.2rem)] md:text-[clamp(1.2rem,6vw,6rem)]
           "
-          style={{
-            top: isMobile ? "32%" : "58%",
-            gap: isMobile ? "18px" : "160px",
-            fontSize: isMobile
-              ? "clamp(0.85rem, 4vw, 1.2rem)"
-              : "clamp(1.2rem, 6vw, 6rem)",
-          }}
         >
           <span>do</span>
           <span>front</span>
@@ -251,44 +237,47 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
 
         {/* Texto lateral */}
         <div
-  className="
-    absolute z-4 text-white
-    left-4 bottom-[18%]
-    max-w-27.5
-    sm:max-w-32.5
-    md:left-8 md:bottom-20 md:max-w-none
-  "
->
-  <p className="mb-3 text-xs leading-relaxed sm:text-sm md:text-base">
-    Os sabores do <br /> Ratatouille na <br /> sua casa.
-  </p>
+          className="
+            absolute z-[4] text-white
+            left-4 bottom-[18%]
+            max-w-[110px]
+            sm:max-w-[130px]
+            md:left-8 md:bottom-20 md:max-w-none
+          "
+        >
+          <p className="mb-3 text-xs leading-relaxed sm:text-sm md:text-base">
+            Os sabores do <br /> Ratatouille na <br /> sua casa.
+          </p>
 
-  <p className="text-[11px] italic leading-relaxed sm:text-sm md:text-base">
-    "Qualquer um pode cozinhar." - Rémy
-  </p>
-</div>
+          <p className="text-[11px] italic leading-relaxed sm:text-sm md:text-base">
+            "Qualquer um pode cozinhar." - Rémy
+          </p>
+        </div>
 
         {/* imagem do Rémy */}
         <div
   className="
-    absolute z-5
-    left-1/2 bottom-[-px]
+    absolute z-[5]
+    left-1/2
     -translate-x-1/2
-    sm:bottom-[-px]
-    md:bottom-0
+
+    bottom-[99px]     
+    sm:bottom-[60px]  
+    md:bottom-[20px]  
+    lg:bottom-0   
   "
 >
-  <img
-    src="/img/remy.png"
-    alt="Rémy"
-    className="
-      w-75
-      sm:w-75
-      md:w-125
-      lg:w-107.5
-    "
-  />
-</div>
+          <img
+            src="/img/remy.png"
+            alt="Rémy"
+            className="
+              w-[300px]
+              sm:w-[300px]
+              md:w-[500px]
+              lg:w-[500px]
+            "
+          />
+        </div>
       </section>
     </>
   );
