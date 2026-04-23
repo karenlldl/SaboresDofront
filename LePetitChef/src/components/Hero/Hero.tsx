@@ -232,7 +232,7 @@ const Hero = ({ usuario, setUsuario, abrirAuthModal }: HeroProps) => {
           <img
             src="/img/remy.png"
             alt="Rémy"
-            className="w-50 sm:w-72 md:w-100 lg:w-120"
+            className="w-50 sm:w-72 md:w-100 lg:w-135"
           />
         </div>
           
