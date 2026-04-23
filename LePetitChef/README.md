@@ -1,73 +1,130 @@
-# React + TypeScript + Vite
+# 🍽️ Le Petit Chef
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como parte do **Checkpoint 05**, com o objetivo de criar uma aplicação web moderna utilizando **React + TypeScript + TailwindCSS**, com foco em experiência do usuário, responsividade e organização de componentes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Descrição
 
-## React Compiler
+O **Le Petit Chef** é uma aplicação inspirada no universo da culinária francesa, trazendo receitas organizadas por categorias como:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🍷 Bebidas
+- 🥖 Entradas
+- 🍲 Pratos principais
+- 🍰 Sobremesas
 
-## Expanding the ESLint configuration
+O projeto simula um portal gastronômico moderno, com:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Interface elegante inspirada no estilo francês
+- Animações e microinterações
+- Layout responsivo (mobile-first)
+- Sistema de login simulado
+- Navegação dinâmica
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Tecnologias Utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- ⚛️ React
+- 🔷 TypeScript
+- 🎨 Tailwind CSS
+- 🌐 HTML5 + CSS3
+- ⚡ Vite
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📂 Estrutura do Projeto
+LePetitChef/
+│
+├── public/
+│ ├── data/
+│ │ └── receitas.json
+│ └── img/
+│
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── CadernoReceitas/
+│ │ ├── Contato/
+│ │ ├── Equipe/
+│ │ ├── Footer/
+│ │ ├── Hero/
+│ │ ├── ReceitasFavoritas/
+│ │ └── Sobre/
+│ │
+│ ├── pages/
+│ │ ├── Home/
+│ │ └── NotFound/
+│ │
+│ ├── styles/
+│ │ └── index.css
+│ │
+│ ├── App.tsx
+│ └── main.tsx
+│
+└── index.html
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🧠 Funcionalidades
+
+### 🔍 Busca de receitas
+- Filtro dinâmico por nome
+- Busca em tempo real
+
+### 📚 Caderno de receitas
+- Exibe receitas carregadas via JSON
+- Limite inicial de visualização
+- Acesso completo após login
+
+### 🔐 Sistema de autenticação (simulado)
+- Login e cadastro
+- Exibição do nome do usuário
+- Botão de logout
+
+### 📱 Responsividade
+- Layout adaptado para:
+  - Mobile 📱
+  - Tablet 📲
+  - Desktop 💻
+
+### 🎨 UI/UX
+- Design inspirado no Figma
+- Tipografia personalizada (Montserrat + Serif)
+- Efeitos visuais e animações (hover, fade, parallax)
+
+### ⚠️ Página Not Found
+- Detecta rotas inválidas
+- Exibe tela personalizada
+
+---
+
+## 🎬 Animações e Interações
+
+- Fade + Slide ao entrar na tela
+- Parallax no personagem Rémy
+- Hover nos cards de receitas
+- Botões com feedback visual
+- Elementos com profundidade (z-index)
+
+---
+
+## 📦 Como Rodar o Projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/le-petit-chef
+
+# Acesse a pasta
+cd le-petit-chef
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+
+📚 Observações
+Projeto com foco educacional
+Algumas funcionalidades são simuladas (login)
+Dados carregados via JSON local
