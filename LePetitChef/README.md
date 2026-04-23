@@ -127,12 +127,14 @@ LePetitChef/\
 - Elementos com profundidade (z-index)
 
 ---
+## Link do repositório
+https://github.com/karenlldl/SaboresDofront
 
 ## 📦 Como Rodar o Projeto
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/le-petit-chef
+git clone https://github.com/karenlldl/SaboresDofront
 
 # Acesse a pasta
 cd le-petit-chef
